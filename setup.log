@@ -1,0 +1,1062 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA" at "2026-10-25T08:24:00.238011Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-25T08:24:00Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18460, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              89f4665114db4f91a46800ddeb799149
+  Correlation Id:          b28d320a1f4c93a00361c4f2c844138b
+  External correlation Id: 6547972255064112332
+  Machine Id:              114e9E/dGuJncYh57KjrdXUIMEQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-RAVITEJA" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA-notifications" at "2026-10-25T08:24:00.3490969Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469958530867-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.12s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\ravit\zombie runner subway tunnel\.
+-executeMethod
+SubwayRunnerSetup.SetupCompleteScene
+-quit
+-logFile
+C:\Users\ravit\zombie runner subway tunnel\setup.log
+Successfully changed project path to: C:\Users\ravit\zombie runner subway tunnel\.
+C:/Users/ravit/zombie runner subway tunnel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [7328]  Target information:
+
+Player connection [7328]  * "[IP] 10.111.42.155 [Port] 55504 [Flags] 2 [Guid] 2811341896 [EditorId] 2811341896 [Version] 1048832 [Id] WindowsEditor(7,Raviteja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-22756" after 0.6 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ravit/zombie runner subway tunnel/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:          NVIDIA
+    VRAM:            3964 MB
+    App VRAM Budget: 3369 MB
+    Driver:          32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006534 seconds.
+- Loaded All Assemblies, in  1.031 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling: 2008ms
+	BeginReloadAssembly (332ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (422ms)
+				TypeCache.ScanAssembly (395ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (992ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (898ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (207ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.13 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.mathematics@1.3.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.6.8 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collections@84e8eb3fc12e)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal@7865b6b91f8a)
+    com.unity.test-framework@1.6.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ugui@27635d171b1a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.core@0bb36005e9ba)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.shadergraph@b4b75cc00891)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ravit/zombie runner subway tunnel
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 9s128ms
+[690/879    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[871/879    4s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[872/879    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[873/879    4s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 139 defines and 313 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[874/879    3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 335 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[875/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[876/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[877/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[878/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (8.97 seconds), 9 items updated, 879 evaluated
+AssetDatabase: script compilation time: 10.520319s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.115 seconds
+Refreshing native plugins compatible for Editor in 14.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.338 seconds
+Domain Reload Profiling: 10436ms
+	BeginReloadAssembly (581ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (188ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1340ms)
+		LoadAssemblies (1038ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (350ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (8340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (410ms)
+			ProcessInitializeOnLoadAttributes (5509ms)
+			ProcessInitializeOnLoadMethodAttributes (249ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Refreshing native plugins compatible for Editor in 6.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a31c320ea7df55e41a1a0af955ea09cd): Total: 23.053 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9514 ms
+		Asset DB Callback time: managed=640 ms, native=77 ms
+		Scripting: domain reloads=1, domain reload time=2117 ms, compile time=10526 ms, other=176 ms
+		Project Asset Count: scripts=1361, non-scripts=2596
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 63.094ms
+	ApplyChangesToAssetFolders: 1.955ms
+	Scan: 286.344ms
+	OnSourceAssetsModified: 2.238ms
+	CategorizeAssetsWithTransientArtifact: 119.489ms
+	ProcessAssetsWithTransientArtifactChanges: 145.643ms
+	CategorizeAssets: 122.039ms
+	ImportOutOfDateAssets: 8375.082ms (-2155.335ms without children)
+		CompileScripts: 10525.927ms
+		ReloadNativeAssets: 0.082ms
+		UnloadImportedAssets: 1.787ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.837ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.781ms
+	PostProcessAllAssets: 643.920ms
+	Hotreload: 16.007ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.010ms
+	UnloadStreamsBegin: 4.104ms
+	PersistCurrentRevisions: 0.228ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 6.128ms
+	Untracked: 13272.407ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 2.179ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-zombie runner subway tunnel
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6684 unused Assets / (4.8 MB). Loaded Objects now: 7531.
+Memory consumption went from 214.9 MB to 210.1 MB.
+Total: 20.524700 ms (FindLiveObjects: 1.006200 ms CreateObjectMapping: 0.875000 ms MarkObjects: 13.693200 ms  DeleteObjects: 4.948400 ms)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            972.921 ms
+	Integration:            768.655 ms
+	Integration of assets:  23.053 ms
+	Thread Wait Time:       -22.151 ms
+	Total Operation Time:   1742.478 ms
+Unloading 3 unused Assets / (1.8 KB). Loaded Objects now: 30427.
+Memory consumption went from 218.8 MB to 218.8 MB.
+Total: 18.564100 ms (FindLiveObjects: 3.317100 ms CreateObjectMapping: 0.820100 ms MarkObjects: 14.339600 ms  DeleteObjects: 0.085500 ms)
+
+[SubwayRunnerSetup] Starting complete 3D environment setup for SampleScene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:48)
+
+(Filename: Assets/Scripts/Editor/SubwayRunnerSetup.cs Line: 48)
+
+Starting new worker id: 0 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker1.log
+Worker ready: AssetImportWorker0 0
+Worker ready: AssetImportWorker1 1
+[Worker0] Start importing Assets/Textures/T_TrainCarLivery.png using Guid(415f4b8f4a834390bf3a36a79ce73232) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'd76c36e92ba17d261d46abf05a3def70') in 0.1146008 seconds
+Refreshing native plugins compatible for Editor in 6.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4beeaefa0887e624081ce33fbda6ae92): Total: 11.752 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=11711 ms
+		Asset DB Callback time: managed=11 ms, native=28 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2596
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.002ms
+	ApplyChangesToAssetFolders: 0.432ms
+	Scan: 66.606ms
+	OnSourceAssetsModified: 0.003ms
+	CategorizeAssetsWithTransientArtifact: 0.037ms
+	ProcessAssetsWithTransientArtifactChanges: 0.227ms
+	CategorizeAssets: 87.895ms
+	ImportOutOfDateAssets: 11533.877ms (0.583ms without children)
+		ImportManagerImport: 11530.629ms (11530.571ms without children)
+			UpdateCategorizedAssets: 0.058ms
+		ReloadNativeAssets: 0.143ms
+		UnloadImportedAssets: 0.482ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.379ms
+		InitializingProgressBar: 0.009ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.649ms
+	PostProcessAllAssets: 21.166ms
+	Hotreload: 18.953ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.264ms
+	UnloadStreamsBegin: 0.808ms
+	PersistCurrentRevisions: 0.227ms
+	UnloadStreamsEnd: 0.005ms
+	Untracked: 21.468ms
+
+[Worker0] Start importing Assets/Textures/T_TrainCarLivery.png using Guid(415f4b8f4a834390bf3a36a79ce73232) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'd76c36e92ba17d261d46abf05a3def70') in 0.0129969 seconds
+Refreshing native plugins compatible for Editor in 5.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6e325494330ce08478c0e0da3623b748): Total: 0.142 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_SubwaySignage.png using Guid(52b7ebaacb284cc8a7fb5a0e7f5881fc) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '148967d78172fc2b32c699d0e0cc0ef2') in 0.0470397 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=69812a18b07673242b6afd6defb12352): Total: 0.127 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_SubwaySignage.png using Guid(52b7ebaacb284cc8a7fb5a0e7f5881fc) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '148967d78172fc2b32c699d0e0cc0ef2') in 0.0181253 seconds
+Refreshing native plugins compatible for Editor in 5.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e32b2f1d6ce4b2249bfe7f4766ee0e58): Total: 0.147 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_CrateWood.png using Guid(a9137025349047f685631323a483967f) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'c5b5555898ffb5d6c17d345be1e842eb') in 0.0664323 seconds
+Refreshing native plugins compatible for Editor in 6.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=da56fcacae8f9ba4d91e45a211eaa883): Total: 0.169 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_CrateWood.png using Guid(a9137025349047f685631323a483967f) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'c5b5555898ffb5d6c17d345be1e842eb') in 0.0255666 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=535220e2dae63f64c96666df4441cb36): Total: 0.186 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Barrel.png using Guid(8dc5c97f990c4777ae740fbf20a05c80) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '8c2b8988cb45b21e893eca096175afc1') in 0.0110125 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f2bf0e0dca13d9e419dd3faa3e97e3e7): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Barrel.png using Guid(8dc5c97f990c4777ae740fbf20a05c80) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '8c2b8988cb45b21e893eca096175afc1') in 0.0082094 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=863ffa69cec56cc48a36b06d0d0d08b3): Total: 0.133 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_PlatformEdge.png using Guid(04080af881884a0c93c061425a9c8342) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '49c0efa28972515dc624f296f83bdc14') in 0.0094454 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3775e8997acd7344996490b6fd76ec81): Total: 0.114 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_PlatformEdge.png using Guid(04080af881884a0c93c061425a9c8342) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '49c0efa28972515dc624f296f83bdc14') in 0.0085825 seconds
+Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=69feb8225a6232a4abb3f509174f18ba): Total: 0.150 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_GraffitiConcrete.png using Guid(5cc193067892483faec11a0c6b391baf) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'ac27663bc256efa1e88d10426b2267a2') in 0.0264601 seconds
+Refreshing native plugins compatible for Editor in 5.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d880931e0630d9347a88d7886eb869f3): Total: 0.099 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_GraffitiConcrete.png using Guid(5cc193067892483faec11a0c6b391baf) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'ac27663bc256efa1e88d10426b2267a2') in 0.0247207 seconds
+Refreshing native plugins compatible for Editor in 7.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b03f3310316eadc4b8c2dbdfb93db602): Total: 0.165 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_CastIronTubes.png using Guid(e6990c3f35e944059c292da5a5b54114) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '6348273ec056ce9401b587ab94f4e14d') in 0.0256405 seconds
+Refreshing native plugins compatible for Editor in 5.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c2c7e04a1dd633d4ba801bd0008b0e18): Total: 0.098 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_CastIronTubes.png using Guid(e6990c3f35e944059c292da5a5b54114) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '6348273ec056ce9401b587ab94f4e14d') in 0.022494 seconds
+Refreshing native plugins compatible for Editor in 5.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d2e643c1bdce9874cb6abb7cc2ff1839): Total: 0.141 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_TrackBedBallast.png using Guid(09fb85eefc5b4921865bef0ff95e9a06) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '11f4ce87ea861378e1258648edddf179') in 0.0967514 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c3119b958a48a824d9636e7e73612a50): Total: 0.175 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_TrackBedBallast.png using Guid(09fb85eefc5b4921865bef0ff95e9a06) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '11f4ce87ea861378e1258648edddf179') in 0.0318451 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=712dd1a525191864696bab4fd7927ea8): Total: 0.164 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Jacket.png using Guid(52cd71d6d16e4bd1b1e29dbab6e2036d) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '2816c79d1b45392b351452d5020de9fe') in 0.080665 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=675249efed3d9aa40aae6539f2882094): Total: 0.175 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Jacket.png using Guid(52cd71d6d16e4bd1b1e29dbab6e2036d) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '2816c79d1b45392b351452d5020de9fe') in 0.0113671 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fdd5fcdc27e9f9549a53637c91b191f7): Total: 0.139 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Pants.png using Guid(96118a6a16c34da898ab7ee228c4eb9a) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '422330c9ba615c4731febd91f91f4877') in 0.0655511 seconds
+Refreshing native plugins compatible for Editor in 5.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5da68a2347a4572478ab5887eef35f5e): Total: 0.162 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Pants.png using Guid(96118a6a16c34da898ab7ee228c4eb9a) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '422330c9ba615c4731febd91f91f4877') in 0.0103788 seconds
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4d03e5c510bd3dc49bad12444464ccda): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Skin.png using Guid(4675318264b2447d86d6bab8df1ea219) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'c4aa13aed2e45ba79dc6595b76d18a32') in 0.0688179 seconds
+Refreshing native plugins compatible for Editor in 5.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=68333dfc68cdf4140be3e728c03bc4bb): Total: 0.168 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Skin.png using Guid(4675318264b2447d86d6bab8df1ea219) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'c4aa13aed2e45ba79dc6595b76d18a32') in 0.0119054 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0aa6eae06a98b2e42836cf641eb44b7e): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Boots.png using Guid(0eccdcaa5ca742dda9c76801bccfd6f5) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'bf32b45051c28927256912c289d164bb') in 0.0076242 seconds
+Refreshing native plugins compatible for Editor in 6.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8dcf3bf421e159f429542d84de148de6): Total: 0.142 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Player_Boots.png using Guid(0eccdcaa5ca742dda9c76801bccfd6f5) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'bf32b45051c28927256912c289d164bb') in 0.0084454 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9201dd6f4a7b244479c881a93995fdf3): Total: 0.149 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Shirt.png using Guid(0747e12cd43948888efeb268c490b38e) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '52f34b565edd8388f4502f468afd67c6') in 0.0787146 seconds
+Refreshing native plugins compatible for Editor in 5.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e536bc4e293667b4a89baede0ae59ad1): Total: 0.169 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Shirt.png using Guid(0747e12cd43948888efeb268c490b38e) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '52f34b565edd8388f4502f468afd67c6') in 0.0102425 seconds
+Refreshing native plugins compatible for Editor in 5.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0558afd0be5e1d34a9e743b573b8b5a7): Total: 0.130 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Skin.png using Guid(b749e7e717764d07b0aa6e78266310f3) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '9f70b9b2aba35ae8435382395ed5a2e2') in 0.0668633 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=952e2647e42b76a4bb3b16561deff320): Total: 0.153 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Skin.png using Guid(b749e7e717764d07b0aa6e78266310f3) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '9f70b9b2aba35ae8435382395ed5a2e2') in 0.0466372 seconds
+Refreshing native plugins compatible for Editor in 7.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9194d6354f516314bbbb8bb7e0675fbf): Total: 0.185 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Pants.png using Guid(6ed3e1f5f01443839f56f3946c85dad8) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'd8c5499501578ba52fb4e958d86f7ed3') in 0.03123 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=34900e8454363684d935b1ca698b19db): Total: 0.164 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Pants.png using Guid(6ed3e1f5f01443839f56f3946c85dad8) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: 'd8c5499501578ba52fb4e958d86f7ed3') in 0.0146258 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b7b0d5d8d511cf24a8dd2d366fbac6fc): Total: 0.140 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8843d38f5a5cc3b459ad4af07d447067): Total: 0.086 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=6d5a22099992da54b91320948505021a): Total: 0.049 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_ZombieSkin.mat using Guid(005f577ef6bc42258e0abb15f347a040) (NativeFormatImporter) -> (artifact id: 'eb7cf3817d90aadce1fa34afd0b0526c') in 0.0248405 seconds
+Start importing Assets/Materials/M_ZombieShirt.mat using Guid(203fc92f89044c9999d432c61f51cf18) (NativeFormatImporter) -> (artifact id: 'fb4a77e63394be6864d2af70f0868940') in 0.0051794 seconds
+Start importing Assets/Materials/M_PlayerBoots.mat using Guid(91e319787ffa476db782370ac4180a8e) (NativeFormatImporter) -> (artifact id: '56a0323eaab23a4a1485a5e8314e2bbc') in 0.0067371 seconds
+Start importing Assets/Materials/M_ZombieEyes.mat using Guid(91db6668b41a4a828647f9ad2a23bdf0) (NativeFormatImporter) -> (artifact id: '3464a95fdf106ae07596d34ee17f6ea3') in 0.0054397 seconds
+Start importing Assets/Materials/M_PlayerJacket.mat using Guid(22183b7be65f4ac3b18db368838536dd) (NativeFormatImporter) -> (artifact id: 'ad371ba3e02269e52ce2a346b0030ea9') in 0.0058218 seconds
+Start importing Assets/Materials/M_CautionSign.mat using Guid(a2557dd4afe24098a28e979ee8b264f4) (NativeFormatImporter) -> (artifact id: '5c9b18e01fda24f900cc68a0faaab3d4') in 0.0056779 seconds
+Start importing Assets/Materials/TGen_Sleeper.mat using Guid(13718fd604f240fdaa2b45e4f1befb55) (NativeFormatImporter) -> (artifact id: 'e50ea40ca66e8eda874c562ed8d6a594') in 0.0045092 seconds
+Start importing Assets/Materials/M_Barrel.mat using Guid(941c67c9c1f448e5aaa932dc9f313f4d) (NativeFormatImporter) -> (artifact id: '376a8022dd4e0442fc20d62d373c732a') in 0.0048863 seconds
+Start importing Assets/Materials/M_PlayerPants.mat using Guid(a58fd2309350420592c7a3dd4d53701f) (NativeFormatImporter) -> (artifact id: '6391e5ea434dd0f0edd39d3c56605a84') in 0.0058256 seconds
+Start importing Assets/Materials/TGen_EmgLight.mat using Guid(66f31533dc9c483fa8c4e02214c8a454) (NativeFormatImporter) -> (artifact id: '7cf544636458b10957caa904c6ac16a4') in 0.0060667 seconds
+Start importing Assets/Materials/M_ZombiePants.mat using Guid(9657e5b1f84f4961bfabc3b2bc64a713) (NativeFormatImporter) -> (artifact id: 'ade20f5563d31696f69f3bf30dd74bb5') in 0.0068969 seconds
+Start importing Assets/Materials/M_Crate.mat using Guid(d6971eca5c8a4c9fb4dcb5a7d917da75) (NativeFormatImporter) -> (artifact id: '0d5081104178be092a59e1260f25e609') in 0.0051106 seconds
+Start importing Assets/Materials/M_PlayerSkin.mat using Guid(2859a963c55f4d8ca9e1a0c97bb04ea9) (NativeFormatImporter) -> (artifact id: '3f2018a03d9eeb6933a24c1daf9d9f33') in 0.0052294 seconds
+Start importing Assets/Materials/TGen_Ceiling.mat using Guid(98b59d56561544aaa59ebcb33bf471b8) (NativeFormatImporter) -> (artifact id: 'a52c0d2a7e631f1a05ee2fc42541bc19') in 0.0053229 seconds
+Start importing Assets/Materials/TGen_Arch.mat using Guid(986909446a4b48a5aa7ee62c222051d5) (NativeFormatImporter) -> (artifact id: 'eeef3dc1833542666af4e51a278212a3') in 0.0047953 seconds
+Start importing Assets/Materials/TGen_CeilLight.mat using Guid(c82092799e5a46709f32321e5d93e675) (NativeFormatImporter) -> (artifact id: '90c50cd03222ed26dadf51aa9882dd00') in 0.0047553 seconds
+Start importing Assets/Materials/M_TrainBody.mat using Guid(6993b1b5c71547cf88d52a833e41ae86) (NativeFormatImporter) -> (artifact id: '7678d1fcb69f9a39b2ab5a6d1fadd22c') in 0.0054277 seconds
+Start importing Assets/Materials/TGen_Wall.mat using Guid(f9871e492ed84a39b11c1ee1346e6207) (NativeFormatImporter) -> (artifact id: '12f7be8b9f351f143a360ce92baa7f6a') in 0.0045922 seconds
+Start importing Assets/Materials/TGen_Rail.mat using Guid(f90acd07bf8b4c42bc2f5abf73c6621a) (NativeFormatImporter) -> (artifact id: '63342da18c93a1f44bc522894fe186ed') in 0.0048339 seconds
+Start importing Assets/Materials/M_TrainHeadlight.mat using Guid(db9864555070466cbe62b7d65e701331) (NativeFormatImporter) -> (artifact id: '08bedd0263d6b849de5aa763daee1414') in 0.0043795 seconds
+Start importing Assets/Materials/TGen_Floor.mat using Guid(0fc6d62076fd44f3acc182c6abc021b6) (NativeFormatImporter) -> (artifact id: 'e14430c7ddd8114af59f1693580a878c') in 0.0047931 seconds
+Start importing Assets/Materials/M_PlatformEdge.mat using Guid(7fc24c46d507483298f32361563b443b) (NativeFormatImporter) -> (artifact id: '48d9adca64db084dcb7f728457dff03b') in 0.0050397 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=75e0b8402b3235a4b88e216c5c83614e): Total: 0.371 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=22 (actual=22, local cache=0, cache server=0)
+		Asset DB Process Time: managed=6 ms, native=313 ms
+		Asset DB Callback time: managed=33 ms, native=16 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2596
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 24
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.165ms
+	Scan: 20.982ms
+	OnSourceAssetsModified: 1.200ms
+	CategorizeAssetsWithTransientArtifact: 0.041ms
+	ProcessAssetsWithTransientArtifactChanges: 0.072ms
+	CategorizeAssets: 31.936ms
+	ImportOutOfDateAssets: 261.582ms (0.934ms without children)
+		ImportManagerImport: 258.100ms (15.281ms without children)
+			ImportInProcess: 242.194ms
+			UpdateCategorizedAssets: 0.625ms
+		ReloadNativeAssets: 0.092ms
+		UnloadImportedAssets: 0.503ms
+		ReloadImportedAssets: 0.005ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.194ms
+		InitializingProgressBar: 0.010ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 0.741ms
+	PostProcessAllAssets: 34.177ms
+	Hotreload: 15.054ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.254ms
+	UnloadStreamsBegin: 0.002ms
+	PersistCurrentRevisions: 0.512ms
+	UnloadStreamsEnd: 0.465ms
+	Untracked: 4.308ms
+
+[SubwayTextureFactory] All realistic AAA textures and PBR materials generated and configured successfully.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SubwayTextureFactory:GenerateAllTexturesAndMaterials () (at Assets/Scripts/Editor/SubwayTextureFactory.cs:51)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:51)
+
+(Filename: Assets/Scripts/Editor/SubwayTextureFactory.cs Line: 51)
+
+Start importing Assets/Models/Coin_3D_Star.asset using Guid(088d690e3de1e1e4ebfea56563dd3697) (NativeFormatImporter) -> (artifact id: '7d7a45d59b56cb750264d99202066d37') in 0.0063174 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8412241cf606d304980bc479e96a0ff0): Total: 0.093 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Coin.mat using Guid(e13b9df5c1244b6cbefcb748210f584f) (NativeFormatImporter) -> (artifact id: '96009863af96931a66725574631d9d31') in 0.0048359 seconds
+Start importing Assets/Resources/Materials/M_Coin.mat using Guid(8277fc1e66341a749b87002c8de2d37a) (NativeFormatImporter) -> (artifact id: '775f1cfc9554ab9f89318f2413d45481') in 0.0047991 seconds
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8989ef4a393c42c4ca80e1a57f24a162): Total: 0.096 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=11096126d4fd0394e9b2e9079851946c): Total: 0.030 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[CoinMeshFactory] 3D Star Coin Asset successfully generated at 'Assets/Models/Coin_3D_Star.asset' and material at 'Assets/Materials/M_Coin.mat' and 'Assets/Resources/Materials/M_Coin.mat'!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CoinMeshFactory:GenerateCoinAsset () (at Assets/Scripts/Editor/CoinMeshFactory.cs:77)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:52)
+
+(Filename: Assets/Scripts/Editor/CoinMeshFactory.cs Line: 77)
+
+Start importing Assets/Prefabs/Environment/Prop_SubwayTrainCar.prefab using Guid(12524be7dd2dddc4a93cc2db42cc012a) (PrefabImporter) -> (artifact id: 'a7c00a90a208e2624341a32f5130f8b9') in 0.0160781 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fbbeddda1ba5f644e9943cedd18184df): Total: 0.098 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Prefabs/Environment/Segment_StandardTunnel.prefab using Guid(b4a4cd6aeb11fa24eb2e2354de68be2f) (PrefabImporter) -> (artifact id: '620a6710290d8462317f4224bb8cf78d') in 0.1217641 seconds
+Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f831ae842fbbe554d8155128f26d1a86): Total: 0.332 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=309 ms
+		Asset DB Callback time: managed=3 ms, native=18 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.190ms
+	Scan: 21.199ms
+	OnSourceAssetsModified: 0.074ms
+	CategorizeAssetsWithTransientArtifact: 0.006ms
+	ProcessAssetsWithTransientArtifactChanges: 0.075ms
+	CategorizeAssets: 29.571ms
+	ImportOutOfDateAssets: 253.081ms (-26.488ms without children)
+		ImportManagerImport: 243.570ms (51.391ms without children)
+			ImportInProcess: 192.020ms
+			UpdateCategorizedAssets: 0.159ms
+		ReloadNativeAssets: 0.092ms
+		UnloadImportedAssets: 6.505ms
+		ReloadImportedAssets: 27.364ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.395ms
+		InitializingProgressBar: 0.011ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 0.629ms
+	PostProcessAllAssets: 5.416ms
+	Hotreload: 16.580ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.222ms
+	UnloadStreamsBegin: 0.569ms
+	PersistCurrentRevisions: 0.478ms
+	UnloadStreamsEnd: 0.005ms
+	Untracked: 4.142ms
+
+Start importing Assets/Prefabs/Environment/Segment_AbandonedTrain.prefab using Guid(278414dd20df26b438784a59f73d126d) (PrefabImporter) -> (artifact id: 'fdf97f440621c8e9580d22350b6e34bc') in 0.4567141 seconds
+Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=46a35584c4f50d647b08b1ee4ec13960): Total: 0.672 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=648 ms
+		Asset DB Callback time: managed=3 ms, native=19 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.192ms
+	Scan: 21.263ms
+	OnSourceAssetsModified: 0.070ms
+	CategorizeAssetsWithTransientArtifact: 0.006ms
+	ProcessAssetsWithTransientArtifactChanges: 0.076ms
+	CategorizeAssets: 31.135ms
+	ImportOutOfDateAssets: 590.081ms (-30.051ms without children)
+		ImportManagerImport: 581.085ms (58.057ms without children)
+			ImportInProcess: 522.931ms
+			UpdateCategorizedAssets: 0.097ms
+		ReloadNativeAssets: 0.096ms
+		UnloadImportedAssets: 6.232ms
+		ReloadImportedAssets: 30.677ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.135ms
+		InitializingProgressBar: 0.010ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 0.893ms
+	PostProcessAllAssets: 5.023ms
+	Hotreload: 18.070ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.287ms
+	UnloadStreamsBegin: 0.738ms
+	PersistCurrentRevisions: 0.440ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 4.138ms
+
+Start importing Assets/Prefabs/Environment/Segment_SubwayStation.prefab using Guid(05f02859f11c7f640824e3680e785367) (PrefabImporter) -> (artifact id: '6f842d28ce179f176adba2b40c7b47ad') in 0.1245037 seconds
+Refreshing native plugins compatible for Editor in 7.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=08ef2ec6c5c0ab240b4f52c271edbf46): Total: 0.338 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=311 ms
+		Asset DB Callback time: managed=4 ms, native=22 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.221ms
+	Scan: 22.113ms
+	OnSourceAssetsModified: 0.087ms
+	CategorizeAssetsWithTransientArtifact: 0.005ms
+	ProcessAssetsWithTransientArtifactChanges: 0.072ms
+	CategorizeAssets: 30.399ms
+	ImportOutOfDateAssets: 252.868ms (-26.837ms without children)
+		ImportManagerImport: 244.513ms (51.181ms without children)
+			ImportInProcess: 193.237ms
+			UpdateCategorizedAssets: 0.095ms
+		ReloadNativeAssets: 0.099ms
+		UnloadImportedAssets: 5.943ms
+		ReloadImportedAssets: 27.373ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.186ms
+		InitializingProgressBar: 0.010ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.579ms
+	PostProcessAllAssets: 5.835ms
+	Hotreload: 20.782ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.212ms
+	UnloadStreamsBegin: 0.821ms
+	PersistCurrentRevisions: 0.530ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 4.154ms
+
+Start importing Assets/Prefabs/Environment/Segment_MaintenanceZone.prefab using Guid(2318884562cfaee489a350eed859f9e5) (PrefabImporter) -> (artifact id: 'fbf94ae696b78164421c71f197f2e599') in 0.152711 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6d7a55d370e72b74ba426055bc406449): Total: 0.369 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=343 ms
+		Asset DB Callback time: managed=4 ms, native=21 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.171ms
+	Scan: 21.265ms
+	OnSourceAssetsModified: 0.075ms
+	CategorizeAssetsWithTransientArtifact: 0.007ms
+	ProcessAssetsWithTransientArtifactChanges: 0.103ms
+	CategorizeAssets: 33.220ms
+	ImportOutOfDateAssets: 282.714ms (-30.982ms without children)
+		ImportManagerImport: 273.354ms (65.498ms without children)
+			ImportInProcess: 207.729ms
+			UpdateCategorizedAssets: 0.128ms
+		ReloadNativeAssets: 0.105ms
+		UnloadImportedAssets: 6.797ms
+		ReloadImportedAssets: 31.677ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.149ms
+		InitializingProgressBar: 0.012ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.599ms
+	PostProcessAllAssets: 5.690ms
+	Hotreload: 20.324ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.260ms
+	UnloadStreamsBegin: 0.659ms
+	PersistCurrentRevisions: 0.472ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 4.315ms
+
+Start importing Assets/Prefabs/Environment/Segment_RedHorror.prefab using Guid(31ec89e6a34ffc04d8d3c5f07314f1b0) (PrefabImporter) -> (artifact id: '8cd4cb518c916df163b42fa5284a4062') in 0.2366034 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=66e3c8628a5910147884157be3c2d52b): Total: 0.403 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=376 ms
+		Asset DB Callback time: managed=5 ms, native=20 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.184ms
+	Scan: 25.216ms
+	OnSourceAssetsModified: 0.079ms
+	CategorizeAssetsWithTransientArtifact: 0.006ms
+	ProcessAssetsWithTransientArtifactChanges: 0.083ms
+	CategorizeAssets: 32.388ms
+	ImportOutOfDateAssets: 311.857ms (-40.065ms without children)
+		ImportManagerImport: 303.710ms (65.362ms without children)
+			ImportInProcess: 238.226ms
+			UpdateCategorizedAssets: 0.123ms
+		ReloadNativeAssets: 0.097ms
+		UnloadImportedAssets: 5.656ms
+		ReloadImportedAssets: 40.646ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.005ms
+		InitializingProgressBar: 0.010ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 0.796ms
+	PostProcessAllAssets: 8.237ms
+	Hotreload: 17.960ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.245ms
+	UnloadStreamsBegin: 0.700ms
+	PersistCurrentRevisions: 0.620ms
+	UnloadStreamsEnd: 0.003ms
+	Untracked: 5.101ms
+
+Asset Pipeline Refresh (id=79009961b8fe0fc459e8fdc32e7dc36e): Total: 0.027 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[SubwayRunnerSetup] Modular track segment and prop prefabs baked into Assets/Prefabs/Environment
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SubwayRunnerSetup:CreateModularPrefabs () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:249)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:55)
+
+(Filename: Assets/Scripts/Editor/SubwayRunnerSetup.cs Line: 249)
+
+[TunnelGenerator] Arched 3D Subway Tunnel generated with 7 modular segments (180m total length).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TunnelGenerator:GenerateTunnel () (at Assets/Scripts/Environment/TunnelGenerator.cs:188)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:72)
+
+(Filename: Assets/Scripts/Environment/TunnelGenerator.cs Line: 188)
+
+[ZombieMixamoSetup] Scanning for 3D Character & Zombie assets...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ZombieMixamoSetup:RunMixamoSetup () (at Assets/Scripts/Editor/ZombieMixamoSetup.cs:77)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:183)
+
+(Filename: Assets/Scripts/Editor/ZombieMixamoSetup.cs Line: 77)
+
+[Worker0] Start importing Assets/Models/Zombie/running crawl.fbx using Guid(27354aa503023a640a2489882d44b603) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 46.093750%;
+[Worker0]  -> (artifact id: '6fd9b84deef0904b539a924c0882c3e6') in 0.1371892 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e73f25e38a3e5f64ab3ef6b1530bfe50): Total: 0.225 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Models/Zombie/zombie crawl.fbx using Guid(c5cdad7d8b8b42748a85a1450f57ecf3) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 23.833878%;
+[Worker0]  -> (artifact id: 'ef3e0303f8ad14a991f67452dab59346') in 0.1672471 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=e2de9967f1514304da9041e1d26d8528): Total: 0.251 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Models/Zombie/zombie idle.fbx using Guid(469fc235eea56b247a40974a44a4ea5f) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 62.217381%;
+[Worker0]  -> (artifact id: '8f3ebddcb37ed4a4284700b34fc1fe99') in 0.1348143 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=76b631252f8ebd24eabf71f602f38f03): Total: 0.272 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Models/Zombie/zombie run.fbx using Guid(b68dbdfeb26d6e347a9d85bbecb7fd8b) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 72.875000%;
+[Worker0]  -> (artifact id: '223153cbe3013eaaeb67d23d6493e0a1') in 0.1121269 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=853060748568b5f449ca9ccbee4da6ef): Total: 0.243 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Models/Zombie/zombie walk.fbx using Guid(c2116e304c5c9144d84a24871f6ed86a) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 65.514000%;
+[Worker0]  -> (artifact id: 'a499e8691de7bfd73e203c66d6af4139') in 0.1263206 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=fa255226a8d3a2141b366f3ab6be76b0): Total: 0.257 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Models/Zombie/Zombie_Crawl_Model.fbx using Guid(5e8d0433c9feecb46afe321cb568904d) 
+[Worker0] (FBXImporter)
+[Worker0] Keyframe reduction: Ratio: 24.213709%;
+[Worker0]  -> (artifact id: 'fe502100e0d39b5bef68f4cd69bfa611') in 0.4773671 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=aa1ea311c03e8f743b60b5c777a52e6b): Total: 0.590 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=563 ms
+		Asset DB Callback time: managed=3 ms, native=23 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2597
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 4
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.161ms
+	Scan: 22.133ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.007ms
+	ProcessAssetsWithTransientArtifactChanges: 0.073ms
+	CategorizeAssets: 2.226ms
+	ImportOutOfDateAssets: 534.067ms (-2.439ms without children)
+		ImportManagerImport: 530.983ms (530.904ms without children)
+			UpdateCategorizedAssets: 0.078ms
+		ReloadNativeAssets: 0.137ms
+		UnloadImportedAssets: 0.863ms
+		ReloadImportedAssets: 3.011ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.882ms
+		InitializingProgressBar: 0.008ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 0.620ms
+	PostProcessAllAssets: 5.568ms
+	Hotreload: 21.493ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.213ms
+	UnloadStreamsBegin: 0.249ms
+	PersistCurrentRevisions: 0.222ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 4.002ms
+
+Start importing Assets/Animations/Zombie_AnimatorController.controller using Guid(b6c64b7da6bcbba4fb77ba8745019471) (NativeFormatImporter) -> (artifact id: '21c320eccb8eb414d722cf2de7fd9b63') in 0.0057854 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=0984b420c7975764d939368fa0b19c3b): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Animations/Player_AnimatorController.controller using Guid(3d59cfd8410ffcc47a0bcb5aa03efc0a) (NativeFormatImporter) -> (artifact id: 'e643d400ce545abc90a8ac4c578d125b') in 0.005639 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7947a41e6da164940b31c12ebe7768a5): Total: 0.063 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (artifact id: 'a388877728f1001582b600cd0e95779b') in 0.0030392 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b432a36e509086f48ae8d4cae7321c94): Total: 0.100 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ZombieMixamoSetup] Applied 3D Zombie Model to ZombieChaser successfully!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ZombieMixamoSetup:ApplyModelToSceneZombie (string,UnityEngine.RuntimeAnimatorController) (at Assets/Scripts/Editor/ZombieMixamoSetup.cs:397)
+ZombieMixamoSetup:RunMixamoSetup () (at Assets/Scripts/Editor/ZombieMixamoSetup.cs:182)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:183)
+
+(Filename: Assets/Scripts/Editor/ZombieMixamoSetup.cs Line: 397)
+
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (artifact id: '1a907f31bed6c3784d144a9a3b308130') in 0.0026111 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=684817f2eb8c14c469db8bb9676a63cc): Total: 0.164 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ZombieMixamoSetup] Applied 2K Photorealistic Survivor Model to PlayerRunner successfully!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ZombieMixamoSetup:ApplyModelToScenePlayer (string,UnityEngine.RuntimeAnimatorController) (at Assets/Scripts/Editor/ZombieMixamoSetup.cs:482)
+ZombieMixamoSetup:RunMixamoSetup () (at Assets/Scripts/Editor/ZombieMixamoSetup.cs:192)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:183)
+
+(Filename: Assets/Scripts/Editor/ZombieMixamoSetup.cs Line: 482)
+
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (artifact id: '1a907f31bed6c3784d144a9a3b308130') in 0.0019531 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=d9312e58d7af0ed40a32f976083d07e1): Total: 0.061 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[SubwayRunnerSetup] Scene configured and saved successfully. Ready for Play Mode!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SubwayRunnerSetup:SetupCompleteScene () (at Assets/Scripts/Editor/SubwayRunnerSetup.cs:188)
+
+(Filename: Assets/Scripts/Editor/SubwayRunnerSetup.cs Line: 188)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

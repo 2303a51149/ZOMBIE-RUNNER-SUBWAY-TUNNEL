@@ -1,0 +1,58 @@
+================================================================================
+           ZOMBIE RUNNER: SUBWAY TUNNEL - PLAYER MOVEMENT AUDIT REPORT          
+================================================================================
+[PASS] 1. Automatic Forward Movement & Speed Scaling
+       Details: StartZ=0.00m, FinalZ=12.02m (Expected ~12.00m), AcceleratedSpeed=12.030m/s
+[PASS] 2. Three Stable Lanes & Lateral Switching (-3.0m, 0.0m, +3.0m)
+       Details: Lane0 Arrival=-3.000m (Expected -3.000m), Lane2 Arrival=3.000m (Expected +3.000m)
+[PASS] 3. Jumping with Predictable Parabolic Arc
+       Details: Apex Height=1.421m (Target: 1.50m), AirTime=0.617s (Expected ~0.63s), Initial V0=9.49m/s
+[FAIL] Low Ceiling: Jump Height Capped Before Roof Contact
+       Details: Requested=1.50m, SafeJump=1.50m
+[FAIL] Ceiling Impact: Upward Motion Changes to Descent
+       Details: PlayerJumpController was not attached to the player.
+[FAIL] Repeated Jump: Input Cannot Retrigger While Airborne
+       Details: Could not locate the player's jump state handlers.
+[PASS] Train Does Not Create a Route Onto Its Roof
+       Details: RampPresent=False, WalkableRoofPresent=False
+[PASS] 4. Sliding & Crouching Capsule Dimensions
+       Details: NormalHeight=1.80m -> SlideHeight=0.80m, SlideTopY=0.80m (< 1.05m obstacle clearance)
+[PASS] 5. Player Grounding, Coyote Time & Jump Buffering
+       Details: Downforce=-4.0m/s, CoyoteDuration=0.14s, JumpBufferDuration=0.16s
+[PASS] 6. Consistent Movement Independent of Frame Rate (30, 60, 120 FPS)
+       Details: 30FPS Dist=12.024m, 60FPS Dist=12.025m, 120FPS Dist=12.025m (Variance < 0.05m)
+[PASS] 7. Combination: Lane Switching While Airborne in Mid-Jump
+       Details: FinalX=3.00m (Expected +3.00m), PeakJumpY=1.42m (Expected > 1.35m)
+[PASS] 8. Combination: Mid-Air Slide (Fast Dive-Drop onto Tracks)
+       Details: Pre-dive Y=1.12m, Reached ground in 4 frames (66.7ms) with -22m/s dive
+[PASS] 9. Combination: Slide Cancellation by Immediate Jump
+       Details: Height instantly restored to 1.80m, Jump velocity initialized to 9.49m/s
+[PASS] 10. Fair Obstacle Clearance: Slide Under Overhead Barrier
+       Details: Barrier Bottom=1.05m, Player Top While Sliding=0.80m (Clearance Margin=0.25m)
+[PASS] 11. Fair Obstacle Clearance: Jump Hurdle Barricade Vault
+       Details: Hurdle Top=0.56m, Jump Apex=1.50m (Vault Clearance Margin=0.94m)
+[PASS] 12. Power-Up: Shield Protection & Stumble Recoil
+       Details: Shield Active=True, InvincibleGraceDuration=0.60s, PlayerAlive=True
+[PASS] 13. Power-Up: Speed Boost & Velocity Scaling
+       Details: BaseSpeed=12.0m/s -> BoostedSpeed=21.0m/s (+9.0m/s)
+[PASS] 14. Power-Up: Coin Magnet Attraction Physics
+       Details: InitialDist=6.02m -> AttractedDist=3.67m (PullSpeed=24.0m/s)
+[PASS] 15. Zombie AI: Smooth Follow Distance & Flanking Offset
+       Details: FollowDistance=2.20m (Behind Player), FlankOffset=-0.95m (Camera Visibility)
+[PASS] 16. Zombie Ground Alignment & Rig Preservation
+       Details: TrackY=4.25/4.25, ExistingModelPreserved=True, RootMotionDisabled=True, PhysicsUnchanged=True
+[PASS] 17. High-Score Persistence & PlayerPrefs Integrity
+       Details: Wrote Score=15,420, Read Back Score=15,420 (Integrity Verified)
+[PASS] 18. Gameplay Feature: Near-Miss Proximity Detection
+       Details: SafePassDetected=True, CurrentCollisionIgnored=True, PriorCollisionIgnored=True, SingleAwardLatch=True
+[PASS] 19. Gameplay Feature: Near-Miss Score Persistence
+       Details: ScoreAfterRefresh=260, Expected=260 (10 distance + 250 near-miss)
+[PASS] 20. Gameplay Feature: Daily Missions Tracking & Progression
+       Details: CoinProgress=100/100, NearMissProgress=10/10 (Active Daily Goals)
+[PASS] 21. Zombie Chase AI: Surge, Stumble & Repel Dynamics
+       Details: RepelExpandedDistance=3.80m (Expected >= 3.5m after shield repel)
+[PASS] 22. Gameplay Feature: Lifetime Stats Persistence
+       Details: Persisted BestDistance=1450m, TotalRunsCompleted=1
+================================================================================
+TOTAL TESTS: 26 | PASSED: 23 | FAILED: 3
+================================================================================

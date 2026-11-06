@@ -1,0 +1,247 @@
+=== PLAYER HIERARCHY DIAGNOSTIC ===
+Player GameObject: 'PlayerRunner', Active=True, Pos=(0.00, 0.00, 0.00), Scale=(1.00, 1.00, 1.00)
+visualRoot: MixamoPlayerModel
+animator: MixamoPlayerModel
+  runtimeAnimatorController: Player_AnimatorController
+  avatar: null, isHuman=False, isValid=
+  applyRootMotion: False
+
+--- ALL CHILDREN ---
+  [MixamoPlayerModel] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [Beta_Joints] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [Beta_Surface] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [mixamorig:Hips] worldPos=(0.00, 1.04, 0.02), localPos=(0.00, 1.04, 0.02), rot=(0.74, 0.00, 0.00)
+      [mixamorig:LeftUpLeg] worldPos=(-0.08, 0.98, 0.00), localPos=(-0.08, -0.07, -0.02), rot=(358.74, 0.00, 180.00)
+        [mixamorig:LeftLeg] worldPos=(-0.08, 0.53, 0.00), localPos=(0.00, 0.44, 0.00), rot=(355.48, 0.00, 0.00)
+          [mixamorig:LeftFoot] worldPos=(-0.08, 0.09, -0.03), localPos=(0.00, 0.45, 0.00), rot=(54.82, 0.00, 0.00)
+            [mixamorig:LeftToeBase] worldPos=(-0.08, 0.00, 0.08), localPos=(0.00, 0.14, 0.00), rot=(39.17, 0.00, 0.00)
+              [mixamorig:LeftToe_End] worldPos=(-0.08, 0.00, 0.17), localPos=(0.00, 0.09, 0.00), rot=(0.00, 1.36, 0.00)
+            [L_SneakerUpper] worldPos=(-0.08, 0.05, 0.06), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+            [L_SneakerSole] worldPos=(-0.08, 0.00, 0.02), localPos=(0.00, 0.09, -0.04), rot=(0.00, 0.00, 0.00)
+          [L_KneeJoint] worldPos=(-0.08, 0.52, 0.00), localPos=(0.00, 0.01, 0.00), rot=(0.00, 0.00, 0.00)
+          [L_JeansCalf] worldPos=(-0.08, 0.33, -0.01), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [L_JeansThigh] worldPos=(-0.08, 0.78, 0.00), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [L_HipJoint] worldPos=(-0.08, 0.96, 0.00), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [mixamorig:RightUpLeg] worldPos=(0.08, 0.98, 0.00), localPos=(0.08, -0.07, -0.02), rot=(358.74, 0.00, 180.00)
+        [mixamorig:RightLeg] worldPos=(0.08, 0.53, 0.00), localPos=(0.00, 0.44, 0.00), rot=(355.48, 0.00, 0.00)
+          [mixamorig:RightFoot] worldPos=(0.08, 0.09, -0.03), localPos=(0.00, 0.45, 0.00), rot=(54.82, 0.00, 0.00)
+            [mixamorig:RightToeBase] worldPos=(0.08, 0.00, 0.08), localPos=(0.00, 0.14, 0.00), rot=(39.17, 0.00, 0.00)
+              [mixamorig:RightToe_End] worldPos=(0.08, 0.00, 0.17), localPos=(0.00, 0.09, 0.00), rot=(0.00, 358.67, 0.00)
+            [R_SneakerUpper] worldPos=(0.08, 0.05, 0.06), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+            [R_SneakerSole] worldPos=(0.08, 0.00, 0.02), localPos=(0.00, 0.09, -0.04), rot=(0.00, 0.00, 0.00)
+          [R_KneeJoint] worldPos=(0.08, 0.52, 0.00), localPos=(0.00, 0.01, 0.00), rot=(0.00, 0.00, 0.00)
+          [R_JeansCalf] worldPos=(0.08, 0.33, -0.01), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [R_JeansThigh] worldPos=(0.08, 0.78, 0.00), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [R_HipJoint] worldPos=(0.08, 0.96, 0.00), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [mixamorig:Spine] worldPos=(0.00, 1.14, 0.02), localPos=(0.00, 0.10, 0.00), rot=(350.81, 0.00, 0.00)
+        [mixamorig:Spine1] worldPos=(0.00, 1.24, 0.00), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+          [mixamorig:Spine2] worldPos=(0.00, 1.34, -0.01), localPos=(0.00, 0.09, 0.00), rot=(1.48, 0.00, 0.00)
+            [mixamorig:LeftShoulder] worldPos=(-0.05, 1.45, -0.03), localPos=(-0.05, 0.11, -0.01), rot=(82.47, 157.82, 259.88)
+              [mixamorig:LeftArm] worldPos=(-0.15, 1.44, -0.06), localPos=(0.00, 0.11, 0.00), rot=(357.23, 0.58, 348.10)
+                [mixamorig:LeftForeArm] worldPos=(-0.43, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                  [mixamorig:LeftHand] worldPos=(-0.71, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandIndex1] worldPos=(-0.80, 1.44, -0.03), localPos=(0.02, 0.09, 0.01), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandIndex2] worldPos=(-0.84, 1.44, -0.03), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandIndex3] worldPos=(-0.87, 1.44, -0.03), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandMiddle1] worldPos=(-0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandMiddle2] worldPos=(-0.85, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandMiddle3] worldPos=(-0.88, 1.44, -0.06), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandPinky1] worldPos=(-0.79, 1.44, -0.09), localPos=(-0.04, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandPinky2] worldPos=(-0.83, 1.44, -0.09), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandPinky3] worldPos=(-0.85, 1.44, -0.09), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandRing1] worldPos=(-0.80, 1.44, -0.07), localPos=(-0.02, 0.09, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandRing2] worldPos=(-0.84, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandRing3] worldPos=(-0.87, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandThumb1] worldPos=(-0.74, 1.42, -0.03), localPos=(0.03, 0.02, 0.02), rot=(30.04, 0.09, 333.48)
+                      [mixamorig:LeftHandThumb2] worldPos=(-0.77, 1.41, -0.01), localPos=(0.00, 0.04, 0.00), rot=(0.00, 359.88, 0.00)
+                        [mixamorig:LeftHandThumb3] worldPos=(-0.80, 1.39, 0.01), localPos=(0.00, 0.03, 0.00), rot=(0.00, 359.91, 0.00)
+                    [L_HandPalm] worldPos=(-0.76, 1.44, -0.06), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+                    [L_HandThumb] worldPos=(-0.74, 1.43, -0.02), localPos=(0.04, 0.03, 0.02), rot=(0.00, 0.00, 0.00)
+                    [L_HandFingers] worldPos=(-0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.01), rot=(0.00, 0.00, 0.00)
+                  [L_SleeveCuff] worldPos=(-0.47, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                  [L_ForearmSkin] worldPos=(-0.59, 1.44, -0.06), localPos=(0.00, 0.16, 0.00), rot=(0.00, 0.00, 0.00)
+                  [L_Smartwatch] worldPos=(-0.66, 1.44, -0.06), localPos=(0.00, 0.23, 0.00), rot=(0.00, 0.00, 0.00)
+                [L_JacketSleeve] worldPos=(-0.28, 1.44, -0.06), localPos=(0.00, 0.13, 0.00), rot=(0.00, 0.00, 0.00)
+                [L_ShoulderCap] worldPos=(-0.17, 1.44, -0.06), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+            [mixamorig:Neck] worldPos=(0.00, 1.50, -0.03), localPos=(0.00, 0.17, 0.00), rot=(0.00, 0.00, 0.00)
+              [mixamorig:Head] worldPos=(0.00, 1.60, -0.02), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+                [mixamorig:HeadTop_End] worldPos=(0.00, 1.82, 0.06), localPos=(0.00, 0.21, 0.10), rot=(0.00, 0.00, 0.00)
+                [SculptedHead] worldPos=(0.00, 1.67, -0.02), localPos=(0.00, 0.07, 0.00), rot=(0.00, 0.00, 0.00)
+                [SculptedHair] worldPos=(0.00, 1.67, -0.02), localPos=(0.00, 0.07, 0.00), rot=(0.00, 0.00, 0.00)
+                [Eye_L] worldPos=(-0.04, 1.73, 0.06), localPos=(-0.04, 0.12, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eye_R] worldPos=(0.04, 1.73, 0.06), localPos=(0.04, 0.12, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eyebrow_L] worldPos=(-0.04, 1.75, 0.06), localPos=(-0.04, 0.14, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eyebrow_R] worldPos=(0.04, 1.75, 0.06), localPos=(0.04, 0.14, 0.09), rot=(0.00, 0.00, 0.00)
+                [Nose_Bridge] worldPos=(0.00, 1.72, 0.07), localPos=(0.00, 0.11, 0.10), rot=(0.00, 0.00, 0.00)
+                [Nose_Tip] worldPos=(0.00, 1.70, 0.08), localPos=(0.00, 0.09, 0.10), rot=(0.00, 0.00, 0.00)
+                [Lips_Upper] worldPos=(0.00, 1.66, 0.07), localPos=(0.00, 0.05, 0.09), rot=(0.00, 0.00, 0.00)
+                [Lips_Lower] worldPos=(0.00, 1.65, 0.07), localPos=(0.00, 0.04, 0.09), rot=(0.00, 0.00, 0.00)
+                [Ear_L] worldPos=(-0.10, 1.70, -0.04), localPos=(-0.10, 0.11, -0.01), rot=(0.00, 0.00, 0.00)
+                [Ear_R] worldPos=(0.10, 1.70, -0.04), localPos=(0.10, 0.11, -0.01), rot=(0.00, 0.00, 0.00)
+              [NeckMesh] worldPos=(0.00, 1.55, -0.03), localPos=(0.00, 0.05, 0.01), rot=(0.00, 0.00, 0.00)
+            [mixamorig:RightShoulder] worldPos=(0.05, 1.45, -0.03), localPos=(0.05, 0.11, -0.01), rot=(82.47, 202.19, 100.13)
+              [mixamorig:RightArm] worldPos=(0.15, 1.44, -0.06), localPos=(0.00, 0.11, 0.00), rot=(357.22, 359.42, 11.90)
+                [mixamorig:RightForeArm] worldPos=(0.43, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                  [mixamorig:RightHand] worldPos=(0.71, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandIndex1] worldPos=(0.80, 1.44, -0.03), localPos=(-0.02, 0.09, 0.01), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandIndex2] worldPos=(0.84, 1.44, -0.03), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandIndex3] worldPos=(0.87, 1.44, -0.03), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandMiddle1] worldPos=(0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandMiddle2] worldPos=(0.85, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandMiddle3] worldPos=(0.88, 1.44, -0.06), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandPinky1] worldPos=(0.79, 1.44, -0.09), localPos=(0.04, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandPinky2] worldPos=(0.83, 1.44, -0.09), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandPinky3] worldPos=(0.85, 1.44, -0.09), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandRing1] worldPos=(0.80, 1.44, -0.07), localPos=(0.02, 0.09, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandRing2] worldPos=(0.84, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandRing3] worldPos=(0.87, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandThumb1] worldPos=(0.74, 1.42, -0.03), localPos=(-0.03, 0.02, 0.02), rot=(30.04, 359.90, 26.51)
+                      [mixamorig:RightHandThumb2] worldPos=(0.77, 1.41, -0.01), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.13, 0.00)
+                        [mixamorig:RightHandThumb3] worldPos=(0.80, 1.39, 0.01), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.09, 0.00)
+                    [R_HandPalm] worldPos=(0.76, 1.44, -0.06), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+                    [R_HandThumb] worldPos=(0.74, 1.43, -0.02), localPos=(-0.04, 0.03, 0.02), rot=(0.00, 0.00, 0.00)
+                    [R_HandFingers] worldPos=(0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.01), rot=(0.00, 0.00, 0.00)
+                  [R_SleeveCuff] worldPos=(0.47, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                  [R_ForearmSkin] worldPos=(0.60, 1.44, -0.06), localPos=(0.00, 0.17, 0.00), rot=(0.00, 0.00, 0.00)
+                [R_JacketSleeve] worldPos=(0.28, 1.44, -0.06), localPos=(0.00, 0.13, 0.00), rot=(0.00, 0.00, 0.00)
+                [R_ShoulderCap] worldPos=(0.17, 1.44, -0.06), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+            [Jacket_Chest] worldPos=(0.00, 1.42, -0.02), localPos=(0.00, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+            [Shirt_VNeck] worldPos=(0.00, 1.48, 0.10), localPos=(0.00, 0.13, 0.13), rot=(0.00, 0.00, 0.00)
+            [Jacket_Collar] worldPos=(0.00, 1.52, -0.02), localPos=(0.00, 0.18, 0.01), rot=(0.00, 0.00, 0.00)
+            [Jacket_Hood] worldPos=(0.00, 1.46, -0.17), localPos=(0.00, 0.14, -0.14), rot=(0.00, 0.00, 0.00)
+            [Backpack_Main] worldPos=(0.00, 1.37, -0.23), localPos=(0.00, 0.06, -0.21), rot=(0.00, 0.00, 0.00)
+            [Backpack_Bedroll] worldPos=(0.00, 1.55, -0.25), localPos=(0.00, 0.24, -0.21), rot=(0.00, 0.00, 0.00)
+            [Backpack_Canteen] worldPos=(0.18, 1.33, -0.21), localPos=(0.18, 0.02, -0.20), rot=(0.00, 0.00, 0.00)
+          [Jacket_Mid] worldPos=(0.00, 1.29, -0.01), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+          [Pocket_L] worldPos=(-0.11, 1.32, 0.12), localPos=(-0.11, 0.06, 0.12), rot=(0.00, 0.00, 0.00)
+          [Pocket_R] worldPos=(0.11, 1.32, 0.12), localPos=(0.11, 0.06, 0.12), rot=(0.00, 0.00, 0.00)
+          [Zipper_Track] worldPos=(0.00, 1.31, 0.12), localPos=(0.00, 0.05, 0.12), rot=(0.00, 0.00, 0.00)
+        [Jacket_Waist] worldPos=(0.00, 1.19, 0.01), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+      [Pants_Pelvis] worldPos=(0.00, 1.02, 0.02), localPos=(0.00, -0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [Belt_Strap] worldPos=(0.00, 1.09, 0.02), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+      [Belt_Buckle] worldPos=(0.00, 1.09, 0.14), localPos=(0.00, 0.05, 0.12), rot=(0.00, 0.00, 0.00)
+
+--- ALL RENDERERS ---
+Renderer on 'Beta_Joints': type=SkinnedMeshRenderer, enabled=False, activeInHierarchy=True, matCount=1
+   Mat[0]: Beta_Joints_MAT1 (Shader: Universal Render Pipeline/Lit)
+   SMR: mesh=Beta_Joints, rootBone=mixamorig:Hips, bonesCount=64, bounds=Center: (0.00, -0.26, -0.01), Extents: (0.88, 0.82, 0.13)
+Renderer on 'Beta_Surface': type=SkinnedMeshRenderer, enabled=False, activeInHierarchy=True, matCount=1
+   Mat[0]: Beta_HighLimbsGeoSG3 (Shader: Universal Render Pipeline/Lit)
+   SMR: mesh=Beta_Surface, rootBone=mixamorig:Hips, bonesCount=65, bounds=Center: (0.00, -0.16, -0.01), Extents: (0.90, 0.95, 0.18)
+Renderer on 'L_SneakerUpper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_SneakerSole': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_KneeJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JeansCalf': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JeansThigh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HipJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SneakerUpper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SneakerSole': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_KneeJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JeansCalf': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JeansThigh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HipJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandPalm': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandThumb': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandFingers': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_SleeveCuff': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_ForearmSkin': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_Smartwatch': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JacketSleeve': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_ShoulderCap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'SculptedHead': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerFace (Shader: Universal Render Pipeline/Lit)
+Renderer on 'SculptedHair': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eye_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerEyes (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eye_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerEyes (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eyebrow_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eyebrow_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Nose_Bridge': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Nose_Tip': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Lips_Upper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerLips (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Lips_Lower': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerLips (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Ear_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Ear_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'NeckMesh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandPalm': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandThumb': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandFingers': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SleeveCuff': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_ForearmSkin': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JacketSleeve': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_ShoulderCap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Chest': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Shirt_VNeck': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerShirt (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Collar': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Hood': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Main': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Bedroll': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Canteen': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Mid': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pocket_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pocket_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Zipper_Track': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Waist': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pants_Pelvis': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Belt_Strap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Belt_Buckle': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+
+--- PROCEDURAL LIMB REFERENCES ---
+leftLeg: mixamorig:LeftUpLeg
+rightLeg: mixamorig:RightUpLeg
+leftArm: mixamorig:LeftArm
+rightArm: mixamorig:RightArm
+head: mixamorig:Head

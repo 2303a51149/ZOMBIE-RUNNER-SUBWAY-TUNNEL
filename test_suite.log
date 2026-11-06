@@ -1,0 +1,26 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-01T08:04:12Z
+[Licensing::IpcConnector] Connection to channel LicenseClient-RAVITEJA refused
+Assertion failed on expression: 'SUCCEEDED(hr)'
+Assertion failed on expression: 'wmiOpened'
+Assertion failed on expression: 'ERROR_SUCCESS == status'
+[Licensing::Module] Successfully launched the LicensingClient (PId: 17528)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\ravit\zombie runner subway tunnel\.
+-executeMethod
+PlayerMovementTestSuite.RunAllTests
+-quit
+-logFile
+C:\Users\ravit\zombie runner subway tunnel\test_suite.log
+Successfully changed project path to: C:\Users\ravit\zombie runner subway tunnel\.
+C:/Users/ravit/zombie runner subway tunnel
+Exiting without the bug reporter. Application will terminate with return code 1

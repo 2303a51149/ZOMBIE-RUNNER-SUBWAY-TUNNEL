@@ -1,0 +1,527 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15773 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA" at "2026-10-25T07:20:24.8134276Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-25T07:20:24Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18460, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5ae2a25d8188405fb5076b4811329cc9
+  Correlation Id:          b28d320a1f4c93a00361c4f2c844138b
+  External correlation Id: 679542280616099631
+  Machine Id:              114e9E/dGuJncYh57KjrdXUIMEQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-RAVITEJA" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA-notifications" at "2026-10-25T07:20:24.8652939Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469958530867-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\ravit\zombie runner subway tunnel\.
+-executeMethod
+CharacterTextureBaker.BakeAllCharacterTextures
+-quit
+-logFile
+C:\Users\ravit\zombie runner subway tunnel\texture_bake.log
+Successfully changed project path to: C:\Users\ravit\zombie runner subway tunnel\.
+C:/Users/ravit/zombie runner subway tunnel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [18544]  Target information:
+
+Player connection [18544]  * "[IP] 10.111.42.155 [Port] 55504 [Flags] 2 [Guid] 1961783376 [EditorId] 1961783376 [Version] 1048832 [Id] WindowsEditor(7,Raviteja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-6348" after 0.8 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ravit/zombie runner subway tunnel/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:          NVIDIA
+    VRAM:            3964 MB
+    App VRAM Budget: 3369 MB
+    Driver:          32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003265 seconds.
+- Loaded All Assemblies, in  0.522 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1015ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (180ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.13 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.mathematics@1.3.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.6.8 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collections@84e8eb3fc12e)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal@7865b6b91f8a)
+    com.unity.test-framework@1.6.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ugui@27635d171b1a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.core@0bb36005e9ba)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.shadergraph@b4b75cc00891)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ravit/zombie runner subway tunnel
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/ravit/zombie runner subway tunnel
+ExitCode: 4 Duration: 0s557ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[692/879    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.49 seconds), 1 items updated, 691 evaluated
+ExitCode: 0 Duration: 0s723ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ravit/zombie runner subway tunnel
+ExitCode: 0 Duration: 14s
+Finished compiling graph: 882 nodes, 16025 flattened edges (13301 ToBuild, 136 ToUse), maximum node priority 930
+[488/879    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[691/879    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[875/879   12s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[876/879    1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 335 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[877/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[878/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (14.79 seconds), 6 items updated, 879 evaluated
+AssetDatabase: script compilation time: 16.724283s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.061 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.507 seconds
+Domain Reload Profiling: 4559ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (159ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (3508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (2697ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Starting new worker id: 0 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker1.log
+Worker ready: AssetImportWorker0 0
+Worker ready: AssetImportWorker1 1
+[Worker0] Start importing Assets/UVMap_Beta_Joints.png using Guid(26c3213c1e196f745bb1b86bb42b173e) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '07d7744885d076536cd03441921b509c') in 0.0534782 seconds
+[Worker0] Start importing Assets/UVMap_Beta_Surface.png using Guid(b735d7b544d078e4aa108eccfb5d4b14) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '01da022de679ac1c19eaee2fc875512d') in 0.0403089 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ba6831ea8ae4df84cbc6392ff3af0b55): Total: 28.132 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9859 ms
+		Asset DB Callback time: managed=379 ms, native=37 ms
+		Scripting: domain reloads=1, domain reload time=1062 ms, compile time=16726 ms, other=66 ms
+		Project Asset Count: scripts=1361, non-scripts=2579
+		Asset File Changes: new=3, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 28.972ms
+	ApplyChangesToAssetFolders: 1.133ms
+	Scan: 187.241ms
+	OnSourceAssetsModified: 0.880ms
+	CategorizeAssetsWithTransientArtifact: 53.467ms
+	ProcessAssetsWithTransientArtifactChanges: 88.683ms
+	CategorizeAssets: 52.781ms
+	ImportOutOfDateAssets: 9309.586ms (-13206.894ms without children)
+		ImportManagerImport: 5788.422ms (5788.380ms without children)
+			UpdateCategorizedAssets: 0.042ms
+		CompileScripts: 16726.295ms
+		ReloadNativeAssets: 0.044ms
+		UnloadImportedAssets: 0.819ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.578ms
+		InitializingProgressBar: 0.009ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.312ms
+	PostProcessAllAssets: 380.585ms
+	Hotreload: 9.631ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 2.413ms
+	PersistCurrentRevisions: 0.230ms
+	UnloadStreamsEnd: 0.001ms
+	GenerateScriptTypeHashes: 2.455ms
+	Untracked: 18016.367ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 1.138ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-zombie runner subway tunnel
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6681 unused Assets / (6.6 MB). Loaded Objects now: 7528.
+Memory consumption went from 224.3 MB to 217.6 MB.
+Total: 12.224700 ms (FindLiveObjects: 0.671800 ms CreateObjectMapping: 0.778900 ms MarkObjects: 7.280700 ms  DeleteObjects: 3.491700 ms)
+
+[CharacterTextureBaker] Starting high-resolution 2K character texture baking...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:24)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 24)
+
+[CharacterTextureBaker] Analyzing Beta_Surface mesh (15901 verts, 28272 tris)...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:51)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 51)
+
+[CharacterTextureBaker] Baking Player Survivor Albedo and Normal textures...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:88)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 88)
+
+[CharacterTextureBaker] Baking Zombie Infected Albedo and Normal textures...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:93)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 93)
+
+[CharacterTextureBaker] Baking Character Joints textures...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:98)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 98)
+
+Starting new worker id: 2 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker2.log
+[Worker1] Start importing Assets/Textures/T_Zombie_Infected_Albedo.png using Guid(f6f118139a71c4146b7c5c7a088ae651) 
+[Worker0] Start importing Assets/Textures/T_Zombie_Infected_Normal.png using Guid(064671ea9e8fbf54dadfc79cfb1f3873) 
+[Worker0] (TextureImporter)
+[Worker1] (TextureImporter)
+[Worker0]  -> (artifact id: 'f0011cee26a555bd549487cdb01a0cb4') in 0.1664882 seconds
+[Worker1]  -> (artifact id: '05b10ef7893002a99901e35369bf0d72') in 0.1725899 seconds
+[Worker0] Start importing Assets/Textures/T_Zombie_Joints_Albedo.png using Guid(7c982078789ddb244ae76c0aa6540ddf) 
+[Worker1] Start importing Assets/Textures/T_Player_Survivor_Normal.png using Guid(63cf3ffda89f42e4c86ae01b549f59c1) 
+[Worker0] (TextureImporter)
+[Worker1] (TextureImporter)
+[Worker0]  -> (artifact id: '85422ea6ef0fdd0e29442c7dcde3007d') in 0.0315819 seconds
+[Worker0] Start importing Assets/Textures/T_Player_Survivor_Albedo.png using Guid(8f275ba89be04114a9f027a16ac0cf49) 
+[Worker0] (TextureImporter)
+[Worker1]  -> (artifact id: '4af14c444fdae3df094fb97bd28ed1e7') in 0.1279182 seconds
+[Worker1] Start importing Assets/Textures/T_Player_Joints_Albedo.png using Guid(ac74b42e9d348694f8def9593920d4c4) 
+[Worker1] (TextureImporter)
+[Worker1]  -> (artifact id: '76d57590d5870e7627e508d31e7000bc') in 0.0457117 seconds
+[Worker0]  -> (artifact id: '17db46d05640679083837ab7c5ccb3c1') in 0.177795 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b93d7c39281565c4f9a152dcff6e4f49): Total: 0.980 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=6 (actual=6, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=940 ms
+		Asset DB Callback time: managed=8 ms, native=31 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2585
+		Asset File Changes: new=6, changed=6, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.145ms
+	Scan: 39.676ms
+	OnSourceAssetsModified: 0.903ms
+	CategorizeAssetsWithTransientArtifact: 0.022ms
+	ProcessAssetsWithTransientArtifactChanges: 0.194ms
+	CategorizeAssets: 33.445ms
+	ImportOutOfDateAssets: 850.293ms (0.421ms without children)
+		ImportManagerImport: 848.896ms (848.772ms without children)
+			UpdateCategorizedAssets: 0.124ms
+		ReloadNativeAssets: 0.033ms
+		UnloadImportedAssets: 0.191ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.447ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.297ms
+	PostProcessAllAssets: 14.393ms
+	Hotreload: 24.857ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.141ms
+	UnloadStreamsBegin: 0.136ms
+	PersistCurrentRevisions: 0.308ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 15.707ms
+
+[Worker0] Start importing Assets/Textures/T_Player_Survivor_Normal.png using Guid(63cf3ffda89f42e4c86ae01b549f59c1) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '7207d219f5351e64c0b13f2be2830a62') in 0.0963176 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3829bda3e5988d74eb879d33414a8b07): Total: 0.190 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Start importing Assets/Textures/T_Zombie_Infected_Normal.png using Guid(064671ea9e8fbf54dadfc79cfb1f3873) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '0be7bde31c9a8a474305093682f9fb20') in 0.1025216 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=a0f1353382696f341ba92502cc8ae635): Total: 0.171 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Player_Survivor.mat using Guid(533d53950c6171648b6871ad9a1a46c3) (NativeFormatImporter) -> (artifact id: '14fd0570122c17bc87da3932bcbe19c2') in 0.0100993 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=93006b9041b40514aa437289a0dda782): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Player_Joints.mat using Guid(e73517a340fe53546b855d2a3ccf1d8d) (NativeFormatImporter) -> (artifact id: 'b20e6d9a481c8489c3a342ae40de33c5') in 0.0057665 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b5703ae0fceeb0a4983de0aef8d79a5d): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Zombie_Infected.mat using Guid(d280922f37b19854b855772086815a1c) (NativeFormatImporter) -> (artifact id: '74bb7e53532ee6520744498b736e9082') in 0.0031931 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b73710f3b5d165d4892f9a5954bf6a15): Total: 0.051 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Zombie_Joints.mat using Guid(0f91a1b72c91af74782372dd09c425a9) (NativeFormatImporter) -> (artifact id: '8f4408f22e96a41213b605c66711175b') in 0.0028708 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=93addb143073e5844a2d1e85c0d13e66): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Materials/M_Zombie_Infected.mat using Guid(d280922f37b19854b855772086815a1c) (NativeFormatImporter) -> (artifact id: '787001324f4bf7930141591e24a772ee') in 0.0027156 seconds
+Start importing Assets/Materials/M_Player_Survivor.mat using Guid(533d53950c6171648b6871ad9a1a46c3) (NativeFormatImporter) -> (artifact id: 'e069187a4fdb1ec25ab07f964ab57a80') in 0.0026064 seconds
+Start importing Assets/Materials/M_Player_Joints.mat using Guid(e73517a340fe53546b855d2a3ccf1d8d) (NativeFormatImporter) -> (artifact id: 'adb2a4f1d97d0d6fdf533dd8da100b4c') in 0.00209 seconds
+Start importing Assets/Materials/M_Zombie_Joints.mat using Guid(0f91a1b72c91af74782372dd09c425a9) (NativeFormatImporter) -> (artifact id: 'b79446aec078ca35f37be25fddcc869e') in 0.0025351 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ea4be3392688b224b863dccbe4a628fe): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[CharacterTextureBaker] SUCCESS! All 2K photorealistic character textures and PBR materials baked successfully!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CharacterTextureBaker:BakeAllCharacterTextures () (at Assets/Scripts/Editor/CharacterTextureBaker.cs:133)
+
+(Filename: Assets/Scripts/Editor/CharacterTextureBaker.cs Line: 133)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

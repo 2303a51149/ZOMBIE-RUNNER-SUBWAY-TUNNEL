@@ -1,0 +1,707 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.23f1 (09d2ecc7fb28) revision 643820'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA" at "2026-10-25T11:41:24.3813117Z"
+Date: 2026-10-25T11:41:24Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18460, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              3ad8d8d53a484bfc9c7b8017350e18de
+  Correlation Id:          b28d320a1f4c93a00361c4f2c844138b
+  External correlation Id: 6413261608769385179
+  Machine Id:              114e9E/dGuJncYh57KjrdXUIMEQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-RAVITEJA" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RAVITEJA-notifications" at "2026-10-25T11:41:24.4302046Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469958530867-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\ravit\zombie runner subway tunnel\.
+-executeMethod
+InspectPlayerHierarchy.RunDiagnostic
+-quit
+-logFile
+C:\Users\ravit\zombie runner subway tunnel\inspect.log
+Successfully changed project path to: C:\Users\ravit\zombie runner subway tunnel\.
+C:/Users/ravit/zombie runner subway tunnel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [22116]  Target information:
+
+Player connection [22116]  * "[IP] 10.111.42.155 [Port] 55504 [Flags] 2 [Guid] 3965667345 [EditorId] 3965667345 [Version] 1048832 [Id] WindowsEditor(7,Raviteja) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-16900" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.23f1 (09d2ecc7fb28)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ravit/zombie runner subway tunnel/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:          NVIDIA
+    VRAM:            3964 MB
+    App VRAM Budget: 3369 MB
+    Driver:          32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003279 seconds.
+- Loaded All Assemblies, in  0.430 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 839ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 57 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.13 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.timeline@3a22918286f5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.mathematics@1.3.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.6.8 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.collections@84e8eb3fc12e)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal@7865b6b91f8a)
+    com.unity.test-framework@1.6.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.test-framework@bd7f943e9647)
+    com.unity.ugui@2.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ugui@27635d171b1a)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.core@0bb36005e9ba)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.shadergraph@b4b75cc00891)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\ravit\zombie runner subway tunnel\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.23f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ravit/zombie runner subway tunnel
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 7s562ms
+[690/879    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[871/879    5s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[872/879    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[873/879    1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 335 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[874/879    1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 139 defines and 313 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[875/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[876/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[877/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[878/879    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (7.49 seconds), 9 items updated, 879 evaluated
+AssetDatabase: script compilation time: 8.127480s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.014 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.194 seconds
+Domain Reload Profiling: 4198ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (177ms)
+			BuildScriptInfoCaches (67ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2849ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (2487ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (50ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Starting new worker id: 0 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker1.log
+Worker ready: AssetImportWorker0 0
+Worker ready: AssetImportWorker1 1
+Starting new worker id: 2 with log in C:/Users/ravit/zombie runner subway tunnel/Logs/AssetImportWorker2.log
+[Worker0] Start importing Assets/Screenshots/jump_3_apex.png using Guid(93a80869bf413504599649675d6d0d15) 
+[Worker1] Start importing Assets/Screenshots/player_portrait_closeup.png using Guid(d94f74dcdf3914e48b63f1eebe54d973) 
+[Worker1] (TextureImporter)
+[Worker0] (TextureImporter)
+[Worker1]  -> (artifact id: '61a6c9425d7dff7313910e688920f55b') in 0.0680121 seconds
+[Worker0]  -> (artifact id: '45087f34151097d49509209b5f2b92b1') in 0.0749219 seconds
+[Worker1] Start importing Assets/Screenshots/jump_2_takeoff.png using Guid(f014ed2a14915e74fb72d8ef5f2b3e6e) 
+[Worker1] (TextureImporter)
+[Worker0] Start importing Assets/Screenshots/jump_4_descent.png using Guid(c26a898fc210d2e4eb104b65461c3f48) 
+[Worker0] (TextureImporter)
+[Worker0]  -> (artifact id: '3fe2225107c80a39b474b01fcb8731ff') in 0.0566919 seconds
+[Worker1]  -> (artifact id: '700ff0d7ea3da0f5e50a42626cc02f20') in 0.0616065 seconds
+[Worker0] Start importing Assets/Screenshots/jump_5_landing.png using Guid(729871806c501964dbc598685d8b68a2) 
+[Worker1] Start importing Assets/Textures/T_Player_Face.png using Guid(ab2709f0ba1fc9f4392cfb06fd87130e) 
+[Worker0] (TextureImporter)
+[Worker1] (TextureImporter)
+[Worker0]  -> (artifact id: 'b270a0c6914d761ecdf82b5ecddcbd66') in 0.0484224 seconds
+[Worker1]  -> (artifact id: 'ee558472649401a4354106777386cb1e') in 0.0480568 seconds
+[Worker1] Start importing Assets/Screenshots/player_full_body_front.png using Guid(6ee74fc227967364f94f488e921bf2f1) 
+[Worker0] Start importing Assets/Screenshots/player_34_action_running.png using Guid(e8407e65d76550d46a2ff3b5cfab5e1b) 
+[Worker0] (TextureImporter)
+[Worker1] (TextureImporter)
+[Worker1]  -> (artifact id: 'a3aa844df9a025c381489909aaf1bc8e') in 0.0512456 seconds
+[Worker0]  -> (artifact id: '8b47d5c4bb21aab1e97049b08ec4856b') in 0.0515836 seconds
+[Worker1] Start importing Assets/Screenshots/jump_1_running.png using Guid(eac44f8008ee1844693f17d729d3af1b) 
+[Worker1] (TextureImporter)
+[Worker1]  -> (artifact id: '82e6b74037a184febd761dfe3acc3dfa') in 0.040186 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=067ccd8b5dcd8204c8b9ec43b1e3b4bf): Total: 19.194 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=9 (actual=9, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=9632 ms
+		Asset DB Callback time: managed=305 ms, native=37 ms
+		Scripting: domain reloads=1, domain reload time=1015 ms, compile time=8129 ms, other=73 ms
+		Project Asset Count: scripts=1361, non-scripts=2624
+		Asset File Changes: new=0, changed=11, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 27.489ms
+	ApplyChangesToAssetFolders: 0.845ms
+	Scan: 171.145ms
+	OnSourceAssetsModified: 0.914ms
+	CategorizeAssetsWithTransientArtifact: 54.265ms
+	ProcessAssetsWithTransientArtifactChanges: 77.306ms
+	CategorizeAssets: 61.059ms
+	ImportOutOfDateAssets: 9098.084ms (-4924.567ms without children)
+		ImportManagerImport: 5891.490ms (5891.309ms without children)
+			UpdateCategorizedAssets: 0.181ms
+		CompileScripts: 8129.232ms
+		ReloadNativeAssets: 0.034ms
+		UnloadImportedAssets: 0.774ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.710ms
+		InitializingProgressBar: 0.007ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.401ms
+	PostProcessAllAssets: 306.983ms
+	Hotreload: 10.468ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 3.555ms
+	PersistCurrentRevisions: 0.547ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 2.496ms
+	Untracked: 9381.310ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 1.172ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-zombie runner subway tunnel
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6687 unused Assets / (6.0 MB). Loaded Objects now: 7534.
+Memory consumption went from 224.5 MB to 218.4 MB.
+Total: 15.166400 ms (FindLiveObjects: 0.701900 ms CreateObjectMapping: 0.402200 ms MarkObjects: 10.459000 ms  DeleteObjects: 3.601300 ms)
+
+[Worker1] Start importing Assets/Textures/T_Player_Face.png using Guid(ab2709f0ba1fc9f4392cfb06fd87130e) 
+[Worker1] (TextureImporter)
+[Worker1]  -> (artifact id: 'ee558472649401a4354106777386cb1e') in 0.0325275 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ec84d20ee0cbb67419bfe04a38261e7a): Total: 0.387 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=374 ms
+		Asset DB Callback time: managed=4 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1361, non-scripts=2624
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 3
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.188ms
+	Scan: 26.639ms
+	OnSourceAssetsModified: 0.002ms
+	CategorizeAssetsWithTransientArtifact: 0.041ms
+	ProcessAssetsWithTransientArtifactChanges: 0.351ms
+	CategorizeAssets: 35.327ms
+	ImportOutOfDateAssets: 299.150ms (0.260ms without children)
+		ImportManagerImport: 297.678ms (297.647ms without children)
+			UpdateCategorizedAssets: 0.031ms
+		ReloadNativeAssets: 0.037ms
+		UnloadImportedAssets: 0.231ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.508ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.429ms
+	PostProcessAllAssets: 8.800ms
+	Hotreload: 3.458ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.148ms
+	UnloadStreamsBegin: 0.174ms
+	PersistCurrentRevisions: 0.118ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 12.527ms
+
+Asset Pipeline Refresh (id=a347c75adc3a1944d8adb9ed642e1267): Total: 0.003 seconds - Initiated by RefreshV2(ForceUpdate)
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Worker ready: AssetImportWorker2 2
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            362.050 ms
+	Integration:            342.604 ms
+	Integration of assets:  11.389 ms
+	Thread Wait Time:       -10.716 ms
+	Total Operation Time:   705.326 ms
+Unloading 14 unused Assets / (1.8 KB). Loaded Objects now: 30491.
+Memory consumption went from 203.7 MB to 203.7 MB.
+Total: 20.412400 ms (FindLiveObjects: 6.843200 ms CreateObjectMapping: 1.545700 ms MarkObjects: 11.946000 ms  DeleteObjects: 0.075600 ms)
+
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (artifact id: 'dd97ec9b97bbe40b316162e9afb085db') in 0.0071421 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5ae9ff47702ac204bbedf2cde8829f12): Total: 0.060 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+=== PLAYER HIERARCHY DIAGNOSTIC ===
+Player GameObject: 'PlayerRunner', Active=True, Pos=(0.00, 0.00, 0.00), Scale=(1.00, 1.00, 1.00)
+visualRoot: MixamoPlayerModel
+animator: MixamoPlayerModel
+  runtimeAnimatorController: Player_AnimatorController
+  avatar: null, isHuman=False, isValid=
+  applyRootMotion: False
+
+--- ALL CHILDREN ---
+  [MixamoPlayerModel] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [Beta_Joints] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [Beta_Surface] worldPos=(0.00, 0.00, 0.00), localPos=(0.00, 0.00, 0.00), rot=(0.00, 0.00, 0.00)
+    [mixamorig:Hips] worldPos=(0.00, 1.04, 0.02), localPos=(0.00, 1.04, 0.02), rot=(0.74, 0.00, 0.00)
+      [mixamorig:LeftUpLeg] worldPos=(-0.08, 0.98, 0.00), localPos=(-0.08, -0.07, -0.02), rot=(358.74, 0.00, 180.00)
+        [mixamorig:LeftLeg] worldPos=(-0.08, 0.53, 0.00), localPos=(0.00, 0.44, 0.00), rot=(355.48, 0.00, 0.00)
+          [mixamorig:LeftFoot] worldPos=(-0.08, 0.09, -0.03), localPos=(0.00, 0.45, 0.00), rot=(54.82, 0.00, 0.00)
+            [mixamorig:LeftToeBase] worldPos=(-0.08, 0.00, 0.08), localPos=(0.00, 0.14, 0.00), rot=(39.17, 0.00, 0.00)
+              [mixamorig:LeftToe_End] worldPos=(-0.08, 0.00, 0.17), localPos=(0.00, 0.09, 0.00), rot=(0.00, 1.36, 0.00)
+            [L_SneakerUpper] worldPos=(-0.08, 0.05, 0.06), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+            [L_SneakerSole] worldPos=(-0.08, 0.00, 0.02), localPos=(0.00, 0.09, -0.04), rot=(0.00, 0.00, 0.00)
+          [L_KneeJoint] worldPos=(-0.08, 0.52, 0.00), localPos=(0.00, 0.01, 0.00), rot=(0.00, 0.00, 0.00)
+          [L_JeansCalf] worldPos=(-0.08, 0.33, -0.01), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [L_JeansThigh] worldPos=(-0.08, 0.78, 0.00), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [L_HipJoint] worldPos=(-0.08, 0.96, 0.00), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [mixamorig:RightUpLeg] worldPos=(0.08, 0.98, 0.00), localPos=(0.08, -0.07, -0.02), rot=(358.74, 0.00, 180.00)
+        [mixamorig:RightLeg] worldPos=(0.08, 0.53, 0.00), localPos=(0.00, 0.44, 0.00), rot=(355.48, 0.00, 0.00)
+          [mixamorig:RightFoot] worldPos=(0.08, 0.09, -0.03), localPos=(0.00, 0.45, 0.00), rot=(54.82, 0.00, 0.00)
+            [mixamorig:RightToeBase] worldPos=(0.08, 0.00, 0.08), localPos=(0.00, 0.14, 0.00), rot=(39.17, 0.00, 0.00)
+              [mixamorig:RightToe_End] worldPos=(0.08, 0.00, 0.17), localPos=(0.00, 0.09, 0.00), rot=(0.00, 358.67, 0.00)
+            [R_SneakerUpper] worldPos=(0.08, 0.05, 0.06), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+            [R_SneakerSole] worldPos=(0.08, 0.00, 0.02), localPos=(0.00, 0.09, -0.04), rot=(0.00, 0.00, 0.00)
+          [R_KneeJoint] worldPos=(0.08, 0.52, 0.00), localPos=(0.00, 0.01, 0.00), rot=(0.00, 0.00, 0.00)
+          [R_JeansCalf] worldPos=(0.08, 0.33, -0.01), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [R_JeansThigh] worldPos=(0.08, 0.78, 0.00), localPos=(0.00, 0.20, 0.00), rot=(0.00, 0.00, 0.00)
+        [R_HipJoint] worldPos=(0.08, 0.96, 0.00), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [mixamorig:Spine] worldPos=(0.00, 1.14, 0.02), localPos=(0.00, 0.10, 0.00), rot=(350.81, 0.00, 0.00)
+        [mixamorig:Spine1] worldPos=(0.00, 1.24, 0.00), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+          [mixamorig:Spine2] worldPos=(0.00, 1.34, -0.01), localPos=(0.00, 0.09, 0.00), rot=(1.48, 0.00, 0.00)
+            [mixamorig:LeftShoulder] worldPos=(-0.05, 1.45, -0.03), localPos=(-0.05, 0.11, -0.01), rot=(82.47, 157.82, 259.88)
+              [mixamorig:LeftArm] worldPos=(-0.15, 1.44, -0.06), localPos=(0.00, 0.11, 0.00), rot=(357.23, 0.58, 348.10)
+                [mixamorig:LeftForeArm] worldPos=(-0.43, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                  [mixamorig:LeftHand] worldPos=(-0.71, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandIndex1] worldPos=(-0.80, 1.44, -0.03), localPos=(0.02, 0.09, 0.01), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandIndex2] worldPos=(-0.84, 1.44, -0.03), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandIndex3] worldPos=(-0.87, 1.44, -0.03), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandMiddle1] worldPos=(-0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandMiddle2] worldPos=(-0.85, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandMiddle3] worldPos=(-0.88, 1.44, -0.06), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandPinky1] worldPos=(-0.79, 1.44, -0.09), localPos=(-0.04, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandPinky2] worldPos=(-0.83, 1.44, -0.09), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandPinky3] worldPos=(-0.85, 1.44, -0.09), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandRing1] worldPos=(-0.80, 1.44, -0.07), localPos=(-0.02, 0.09, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:LeftHandRing2] worldPos=(-0.84, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:LeftHandRing3] worldPos=(-0.87, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:LeftHandThumb1] worldPos=(-0.74, 1.42, -0.03), localPos=(0.03, 0.02, 0.02), rot=(30.04, 0.09, 333.48)
+                      [mixamorig:LeftHandThumb2] worldPos=(-0.77, 1.41, -0.01), localPos=(0.00, 0.04, 0.00), rot=(0.00, 359.88, 0.00)
+                        [mixamorig:LeftHandThumb3] worldPos=(-0.80, 1.39, 0.01), localPos=(0.00, 0.03, 0.00), rot=(0.00, 359.91, 0.00)
+                    [L_HandPalm] worldPos=(-0.76, 1.44, -0.06), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+                    [L_HandThumb] worldPos=(-0.74, 1.43, -0.02), localPos=(0.04, 0.03, 0.02), rot=(0.00, 0.00, 0.00)
+                    [L_HandFingers] worldPos=(-0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.01), rot=(0.00, 0.00, 0.00)
+                  [L_SleeveCuff] worldPos=(-0.47, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                  [L_ForearmSkin] worldPos=(-0.59, 1.44, -0.06), localPos=(0.00, 0.16, 0.00), rot=(0.00, 0.00, 0.00)
+                  [L_Smartwatch] worldPos=(-0.66, 1.44, -0.06), localPos=(0.00, 0.23, 0.00), rot=(0.00, 0.00, 0.00)
+                [L_JacketSleeve] worldPos=(-0.28, 1.44, -0.06), localPos=(0.00, 0.13, 0.00), rot=(0.00, 0.00, 0.00)
+                [L_ShoulderCap] worldPos=(-0.17, 1.44, -0.06), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+            [mixamorig:Neck] worldPos=(0.00, 1.50, -0.03), localPos=(0.00, 0.17, 0.00), rot=(0.00, 0.00, 0.00)
+              [mixamorig:Head] worldPos=(0.00, 1.60, -0.02), localPos=(0.00, 0.09, 0.03), rot=(0.00, 0.00, 0.00)
+                [mixamorig:HeadTop_End] worldPos=(0.00, 1.82, 0.06), localPos=(0.00, 0.21, 0.10), rot=(0.00, 0.00, 0.00)
+                [SculptedHead] worldPos=(0.00, 1.67, -0.02), localPos=(0.00, 0.07, 0.00), rot=(0.00, 0.00, 0.00)
+                [SculptedHair] worldPos=(0.00, 1.67, -0.02), localPos=(0.00, 0.07, 0.00), rot=(0.00, 0.00, 0.00)
+                [Eye_L] worldPos=(-0.04, 1.73, 0.06), localPos=(-0.04, 0.12, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eye_R] worldPos=(0.04, 1.73, 0.06), localPos=(0.04, 0.12, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eyebrow_L] worldPos=(-0.04, 1.75, 0.06), localPos=(-0.04, 0.14, 0.09), rot=(0.00, 0.00, 0.00)
+                [Eyebrow_R] worldPos=(0.04, 1.75, 0.06), localPos=(0.04, 0.14, 0.09), rot=(0.00, 0.00, 0.00)
+                [Nose_Bridge] worldPos=(0.00, 1.72, 0.07), localPos=(0.00, 0.11, 0.10), rot=(0.00, 0.00, 0.00)
+                [Nose_Tip] worldPos=(0.00, 1.70, 0.08), localPos=(0.00, 0.09, 0.10), rot=(0.00, 0.00, 0.00)
+                [Lips_Upper] worldPos=(0.00, 1.66, 0.07), localPos=(0.00, 0.05, 0.09), rot=(0.00, 0.00, 0.00)
+                [Lips_Lower] worldPos=(0.00, 1.65, 0.07), localPos=(0.00, 0.04, 0.09), rot=(0.00, 0.00, 0.00)
+                [Ear_L] worldPos=(-0.10, 1.70, -0.04), localPos=(-0.10, 0.11, -0.01), rot=(0.00, 0.00, 0.00)
+                [Ear_R] worldPos=(0.10, 1.70, -0.04), localPos=(0.10, 0.11, -0.01), rot=(0.00, 0.00, 0.00)
+              [NeckMesh] worldPos=(0.00, 1.55, -0.03), localPos=(0.00, 0.05, 0.01), rot=(0.00, 0.00, 0.00)
+            [mixamorig:RightShoulder] worldPos=(0.05, 1.45, -0.03), localPos=(0.05, 0.11, -0.01), rot=(82.47, 202.19, 100.13)
+              [mixamorig:RightArm] worldPos=(0.15, 1.44, -0.06), localPos=(0.00, 0.11, 0.00), rot=(357.22, 359.42, 11.90)
+                [mixamorig:RightForeArm] worldPos=(0.43, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                  [mixamorig:RightHand] worldPos=(0.71, 1.44, -0.06), localPos=(0.00, 0.28, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandIndex1] worldPos=(0.80, 1.44, -0.03), localPos=(-0.02, 0.09, 0.01), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandIndex2] worldPos=(0.84, 1.44, -0.03), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandIndex3] worldPos=(0.87, 1.44, -0.03), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandMiddle1] worldPos=(0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandMiddle2] worldPos=(0.85, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandMiddle3] worldPos=(0.88, 1.44, -0.06), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandPinky1] worldPos=(0.79, 1.44, -0.09), localPos=(0.04, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandPinky2] worldPos=(0.83, 1.44, -0.09), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandPinky3] worldPos=(0.85, 1.44, -0.09), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandRing1] worldPos=(0.80, 1.44, -0.07), localPos=(0.02, 0.09, 0.00), rot=(0.00, 0.00, 0.00)
+                      [mixamorig:RightHandRing2] worldPos=(0.84, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                        [mixamorig:RightHandRing3] worldPos=(0.87, 1.44, -0.07), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.00, 0.00)
+                    [mixamorig:RightHandThumb1] worldPos=(0.74, 1.42, -0.03), localPos=(-0.03, 0.02, 0.02), rot=(30.04, 359.90, 26.51)
+                      [mixamorig:RightHandThumb2] worldPos=(0.77, 1.41, -0.01), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.13, 0.00)
+                        [mixamorig:RightHandThumb3] worldPos=(0.80, 1.39, 0.01), localPos=(0.00, 0.03, 0.00), rot=(0.00, 0.09, 0.00)
+                    [R_HandPalm] worldPos=(0.76, 1.44, -0.06), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+                    [R_HandThumb] worldPos=(0.74, 1.43, -0.02), localPos=(-0.04, 0.03, 0.02), rot=(0.00, 0.00, 0.00)
+                    [R_HandFingers] worldPos=(0.81, 1.44, -0.06), localPos=(0.00, 0.10, 0.01), rot=(0.00, 0.00, 0.00)
+                  [R_SleeveCuff] worldPos=(0.47, 1.44, -0.06), localPos=(0.00, 0.04, 0.00), rot=(0.00, 0.00, 0.00)
+                  [R_ForearmSkin] worldPos=(0.60, 1.44, -0.06), localPos=(0.00, 0.17, 0.00), rot=(0.00, 0.00, 0.00)
+                [R_JacketSleeve] worldPos=(0.28, 1.44, -0.06), localPos=(0.00, 0.13, 0.00), rot=(0.00, 0.00, 0.00)
+                [R_ShoulderCap] worldPos=(0.17, 1.44, -0.06), localPos=(0.00, 0.02, 0.00), rot=(0.00, 0.00, 0.00)
+            [Jacket_Chest] worldPos=(0.00, 1.42, -0.02), localPos=(0.00, 0.08, 0.00), rot=(0.00, 0.00, 0.00)
+            [Shirt_VNeck] worldPos=(0.00, 1.48, 0.10), localPos=(0.00, 0.13, 0.13), rot=(0.00, 0.00, 0.00)
+            [Jacket_Collar] worldPos=(0.00, 1.52, -0.02), localPos=(0.00, 0.18, 0.01), rot=(0.00, 0.00, 0.00)
+            [Jacket_Hood] worldPos=(0.00, 1.46, -0.17), localPos=(0.00, 0.14, -0.14), rot=(0.00, 0.00, 0.00)
+            [Backpack_Main] worldPos=(0.00, 1.37, -0.23), localPos=(0.00, 0.06, -0.21), rot=(0.00, 0.00, 0.00)
+            [Backpack_Bedroll] worldPos=(0.00, 1.55, -0.25), localPos=(0.00, 0.24, -0.21), rot=(0.00, 0.00, 0.00)
+            [Backpack_Canteen] worldPos=(0.18, 1.33, -0.21), localPos=(0.18, 0.02, -0.20), rot=(0.00, 0.00, 0.00)
+          [Jacket_Mid] worldPos=(0.00, 1.29, -0.01), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+          [Pocket_L] worldPos=(-0.11, 1.32, 0.12), localPos=(-0.11, 0.06, 0.12), rot=(0.00, 0.00, 0.00)
+          [Pocket_R] worldPos=(0.11, 1.32, 0.12), localPos=(0.11, 0.06, 0.12), rot=(0.00, 0.00, 0.00)
+          [Zipper_Track] worldPos=(0.00, 1.31, 0.12), localPos=(0.00, 0.05, 0.12), rot=(0.00, 0.00, 0.00)
+        [Jacket_Waist] worldPos=(0.00, 1.19, 0.01), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+      [Pants_Pelvis] worldPos=(0.00, 1.02, 0.02), localPos=(0.00, -0.02, 0.00), rot=(0.00, 0.00, 0.00)
+      [Belt_Strap] worldPos=(0.00, 1.09, 0.02), localPos=(0.00, 0.05, 0.00), rot=(0.00, 0.00, 0.00)
+      [Belt_Buckle] worldPos=(0.00, 1.09, 0.14), localPos=(0.00, 0.05, 0.12), rot=(0.00, 0.00, 0.00)
+
+--- ALL RENDERERS ---
+Renderer on 'Beta_Joints': type=SkinnedMeshRenderer, enabled=False, activeInHierarchy=True, matCount=1
+   Mat[0]: Beta_Joints_MAT1 (Shader: Universal Render Pipeline/Lit)
+   SMR: mesh=Beta_Joints, rootBone=mixamorig:Hips, bonesCount=64, bounds=Center: (0.00, -0.26, -0.01), Extents: (0.88, 0.82, 0.13)
+Renderer on 'Beta_Surface': type=SkinnedMeshRenderer, enabled=False, activeInHierarchy=True, matCount=1
+   Mat[0]: Beta_HighLimbsGeoSG3 (Shader: Universal Render Pipeline/Lit)
+   SMR: mesh=Beta_Surface, rootBone=mixamorig:Hips, bonesCount=65, bounds=Center: (0.00, -0.16, -0.01), Extents: (0.90, 0.95, 0.18)
+Renderer on 'L_SneakerUpper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_SneakerSole': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_KneeJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JeansCalf': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JeansThigh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HipJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SneakerUpper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SneakerSole': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerBoots (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_KneeJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JeansCalf': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JeansThigh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HipJoint': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandPalm': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandThumb': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_HandFingers': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_SleeveCuff': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_ForearmSkin': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_Smartwatch': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_JacketSleeve': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'L_ShoulderCap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'SculptedHead': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerFace (Shader: Universal Render Pipeline/Lit)
+Renderer on 'SculptedHair': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eye_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerEyes (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eye_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerEyes (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eyebrow_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Eyebrow_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerHair (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Nose_Bridge': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Nose_Tip': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Lips_Upper': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerLips (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Lips_Lower': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerLips (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Ear_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Ear_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'NeckMesh': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandPalm': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandThumb': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_HandFingers': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_SleeveCuff': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_ForearmSkin': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerSkin (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_JacketSleeve': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'R_ShoulderCap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Chest': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Shirt_VNeck': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerShirt (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Collar': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Hood': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Main': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Bedroll': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Backpack_Canteen': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Mid': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pocket_L': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pocket_R': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Zipper_Track': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Jacket_Waist': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerJacket (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Pants_Pelvis': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerPants (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Belt_Strap': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+Renderer on 'Belt_Buckle': type=MeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_PlayerGear (Shader: Universal Render Pipeline/Lit)
+
+--- PROCEDURAL LIMB REFERENCES ---
+leftLeg: mixamorig:LeftUpLeg
+rightLeg: mixamorig:RightUpLeg
+leftArm: mixamorig:LeftArm
+rightArm: mixamorig:RightArm
+head: mixamorig:Head
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InspectPlayerHierarchy:RunDiagnostic () (at Assets/Scripts/Editor/InspectPlayerHierarchy.cs:62)
+
+(Filename: Assets/Scripts/Editor/InspectPlayerHierarchy.cs Line: 62)
+
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-RAVITEJA channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

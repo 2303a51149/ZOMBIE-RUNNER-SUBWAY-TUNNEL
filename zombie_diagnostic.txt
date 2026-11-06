@@ -1,0 +1,122 @@
+=== ZOMBIE HIERARCHY & COMPONENT DIAGNOSTIC ===
+Zombie GameObject: 'ZombieChaser', Active=True, Pos=(-0.95, 0.00, -2.20), Scale=(1.00, 1.00, 1.00)
+target: null
+followDistance: 2.2, lateralOffset: -0.95
+visualRoot: MixamoZombieModel
+animator: MixamoZombieModel
+  runtimeAnimatorController: Zombie_AnimatorController
+  avatar: null, isHuman=False, isValid=
+  applyRootMotion: False
+
+--- COLLIDERS (0) ---
+
+--- ALL CHILDREN ---
+  [MixamoZombieModel] active=True, worldPos=(-0.95, 0.00, -2.20), rot=(0.00, 0.00, 0.00)
+    [Beta_Joints] active=True, worldPos=(-0.95, 0.00, -2.20), rot=(0.00, 0.00, 0.00)
+    [Beta_Surface] active=True, worldPos=(-0.95, 0.00, -2.20), rot=(0.00, 0.00, 0.00)
+    [mixamorig:Hips] active=True, worldPos=(-1.03, 1.00, -2.16), rot=(3.77, 3.86, 354.83)
+      [mixamorig:LeftUpLeg] active=True, worldPos=(-1.13, 0.93, -2.17), rot=(311.14, 359.03, 171.66)
+        [mixamorig:LeftLeg] active=True, worldPos=(-1.21, 0.60, -1.79), rot=(17.17, 350.66, 176.17)
+          [mixamorig:LeftFoot] active=True, worldPos=(-1.22, 0.10, -1.94), rot=(309.40, 351.75, 179.77)
+            [mixamorig:LeftToeBase] active=True, worldPos=(-1.24, 0.00, -1.82), rot=(270.51, 7.96, 163.62)
+              [mixamorig:LeftToe_End] active=True, worldPos=(-1.26, 0.00, -1.71), rot=(271.31, 283.51, 248.06)
+      [mixamorig:RightUpLeg] active=True, worldPos=(-0.94, 0.91, -2.19), rot=(336.13, 13.42, 192.56)
+        [mixamorig:RightLeg] active=True, worldPos=(-0.78, 0.45, -2.01), rot=(69.57, 42.53, 207.60)
+          [mixamorig:RightFoot] active=True, worldPos=(-0.90, 0.29, -2.49), rot=(24.03, 8.50, 192.82)
+            [mixamorig:RightToeBase] active=True, worldPos=(-0.87, 0.15, -2.56), rot=(345.62, 0.08, 192.11)
+              [mixamorig:RightToe_End] active=True, worldPos=(-0.85, 0.05, -2.53), rot=(345.35, 1.42, 191.77)
+      [mixamorig:Spine] active=True, worldPos=(-1.02, 1.12, -2.15), rot=(26.73, 350.85, 4.15)
+        [mixamorig:Spine1] active=True, worldPos=(-1.03, 1.22, -2.10), rot=(34.99, 349.38, 4.45)
+          [mixamorig:Spine2] active=True, worldPos=(-1.05, 1.31, -2.04), rot=(44.77, 347.86, 4.71)
+            [mixamorig:LeftShoulder] active=True, worldPos=(-1.13, 1.41, -1.97), rot=(35.26, 153.40, 276.48)
+              [mixamorig:LeftArm] active=True, worldPos=(-1.24, 1.42, -2.04), rot=(36.02, 115.41, 196.78)
+                [mixamorig:LeftForeArm] active=True, worldPos=(-1.45, 1.17, -2.04), rot=(36.02, 115.41, 170.43)
+                  [mixamorig:LeftHand] active=True, worldPos=(-1.59, 0.90, -1.91), rot=(19.88, 81.19, 134.87)
+                    [mixamorig:LeftHandIndex1] active=True, worldPos=(-1.62, 0.85, -1.82), rot=(3.91, 84.18, 126.33)
+                      [mixamorig:LeftHandIndex2] active=True, worldPos=(-1.63, 0.82, -1.79), rot=(351.16, 100.16, 128.41)
+                        [mixamorig:LeftHandIndex3] active=True, worldPos=(-1.62, 0.80, -1.76), rot=(327.46, 134.98, 121.05)
+                          [mixamorig:LeftHandIndex4] active=True, worldPos=(-1.59, 0.79, -1.75), rot=(327.42, 134.95, 121.07)
+                    [mixamorig:LeftHandMiddle1] active=True, worldPos=(-1.63, 0.83, -1.84), rot=(19.05, 80.65, 132.46)
+                      [mixamorig:LeftHandMiddle2] active=True, worldPos=(-1.65, 0.80, -1.81), rot=(338.36, 116.53, 139.00)
+                        [mixamorig:LeftHandMiddle3] active=True, worldPos=(-1.63, 0.78, -1.79), rot=(324.88, 129.73, 135.01)
+                          [mixamorig:LeftHandMiddle4] active=True, worldPos=(-1.60, 0.76, -1.78), rot=(324.80, 129.63, 135.07)
+                    [mixamorig:LeftHandPinky1] active=True, worldPos=(-1.63, 0.81, -1.88), rot=(25.49, 82.77, 160.50)
+                      [mixamorig:LeftHandPinky2] active=True, worldPos=(-1.65, 0.77, -1.87), rot=(359.68, 90.02, 165.84)
+                        [mixamorig:LeftHandPinky3] active=True, worldPos=(-1.65, 0.75, -1.86), rot=(306.11, 103.72, 166.84)
+                          [mixamorig:LeftHandPinky4] active=True, worldPos=(-1.63, 0.74, -1.86), rot=(306.09, 103.57, 166.99)
+                    [mixamorig:LeftHandRing1] active=True, worldPos=(-1.63, 0.82, -1.86), rot=(32.24, 67.71, 141.09)
+                      [mixamorig:LeftHandRing2] active=True, worldPos=(-1.66, 0.79, -1.84), rot=(10.75, 82.36, 150.00)
+                        [mixamorig:LeftHandRing3] active=True, worldPos=(-1.66, 0.77, -1.82), rot=(338.20, 99.22, 153.30)
+                          [mixamorig:LeftHandRing4] active=True, worldPos=(-1.65, 0.74, -1.81), rot=(338.22, 99.27, 153.28)
+                    [mixamorig:LeftHandThumb1] active=True, worldPos=(-1.58, 0.90, -1.87), rot=(358.80, 98.46, 116.77)
+                      [mixamorig:LeftHandThumb2] active=True, worldPos=(-1.58, 0.88, -1.82), rot=(358.30, 103.93, 118.36)
+                        [mixamorig:LeftHandThumb3] active=True, worldPos=(-1.57, 0.86, -1.79), rot=(356.66, 89.77, 158.30)
+                          [mixamorig:LeftHandThumb4] active=True, worldPos=(-1.57, 0.83, -1.78), rot=(1.92, 102.87, 153.33)
+            [mixamorig:Neck] active=True, worldPos=(-1.10, 1.45, -1.91), rot=(39.04, 346.48, 12.68)
+              [mixamorig:Head] active=True, worldPos=(-1.14, 1.51, -1.82), rot=(356.64, 349.51, 5.27)
+                [mixamorig:HeadTop_End] active=True, worldPos=(-1.18, 1.76, -1.73), rot=(356.64, 349.51, 5.27)
+            [mixamorig:RightShoulder] active=True, worldPos=(-1.03, 1.41, -1.94), rot=(39.28, 170.50, 72.95)
+              [mixamorig:RightArm] active=True, worldPos=(-0.91, 1.44, -1.95), rot=(37.56, 262.75, 174.06)
+                [mixamorig:RightForeArm] active=True, worldPos=(-0.71, 1.19, -1.96), rot=(37.56, 262.75, 201.25)
+                  [mixamorig:RightHand] active=True, worldPos=(-0.54, 0.94, -1.81), rot=(9.37, 278.49, 228.08)
+                    [mixamorig:RightHandIndex1] active=True, worldPos=(-0.52, 0.89, -1.72), rot=(24.12, 294.12, 228.99)
+                      [mixamorig:RightHandIndex2] active=True, worldPos=(-0.50, 0.86, -1.69), rot=(350.96, 263.78, 218.51)
+                        [mixamorig:RightHandIndex3] active=True, worldPos=(-0.50, 0.84, -1.67), rot=(344.44, 258.72, 218.49)
+                          [mixamorig:RightHandIndex4] active=True, worldPos=(-0.51, 0.81, -1.66), rot=(344.37, 258.81, 218.46)
+                    [mixamorig:RightHandMiddle1] active=True, worldPos=(-0.51, 0.87, -1.73), rot=(18.91, 289.86, 227.69)
+                      [mixamorig:RightHandMiddle2] active=True, worldPos=(-0.49, 0.84, -1.71), rot=(334.08, 249.54, 222.27)
+                        [mixamorig:RightHandMiddle3] active=True, worldPos=(-0.51, 0.82, -1.69), rot=(306.40, 202.54, 248.13)
+                          [mixamorig:RightHandMiddle4] active=True, worldPos=(-0.54, 0.81, -1.69), rot=(306.31, 202.60, 248.06)
+                    [mixamorig:RightHandPinky1] active=True, worldPos=(-0.52, 0.85, -1.78), rot=(346.74, 260.26, 218.51)
+                      [mixamorig:RightHandPinky2] active=True, worldPos=(-0.53, 0.81, -1.75), rot=(307.21, 210.88, 240.25)
+                        [mixamorig:RightHandPinky3] active=True, worldPos=(-0.56, 0.81, -1.75), rot=(306.02, 135.25, 298.00)
+                          [mixamorig:RightHandPinky4] active=True, worldPos=(-0.58, 0.81, -1.76), rot=(305.86, 135.10, 298.12)
+                    [mixamorig:RightHandRing1] active=True, worldPos=(-0.51, 0.86, -1.75), rot=(357.29, 268.73, 219.50)
+                      [mixamorig:RightHandRing2] active=True, worldPos=(-0.52, 0.83, -1.73), rot=(351.69, 265.15, 218.89)
+                        [mixamorig:RightHandRing3] active=True, worldPos=(-0.52, 0.80, -1.71), rot=(347.07, 261.87, 218.73)
+                          [mixamorig:RightHandRing4] active=True, worldPos=(-0.53, 0.78, -1.69), rot=(347.06, 261.89, 218.82)
+                    [mixamorig:RightHandThumb1] active=True, worldPos=(-0.55, 0.94, -1.77), rot=(358.97, 270.43, 277.68)
+                      [mixamorig:RightHandThumb2] active=True, worldPos=(-0.55, 0.95, -1.72), rot=(356.55, 287.38, 233.22)
+                        [mixamorig:RightHandThumb3] active=True, worldPos=(-0.54, 0.93, -1.69), rot=(353.45, 282.78, 258.73)
+                          [mixamorig:RightHandThumb4] active=True, worldPos=(-0.53, 0.92, -1.66), rot=(6.71, 280.14, 264.35)
+    [ZombieAuraLight] active=True, worldPos=(-0.95, 1.40, -2.32), rot=(0.00, 0.00, 0.00)
+
+--- ALL RENDERERS ---
+Renderer on 'Beta_Joints': type=SkinnedMeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_Zombie_Joints (Shader: Universal Render Pipeline/Lit)
+      _BaseMap: T_Zombie_Joints_Albedo
+   SMR: mesh=Beta_Joints, rootBone=mixamorig:Hips, bonesCount=64, bounds=Center: (-0.03, -0.20, 0.14), Extents: (0.38, 0.73, 0.31)
+Renderer on 'Beta_Surface': type=SkinnedMeshRenderer, enabled=True, activeInHierarchy=True, matCount=1
+   Mat[0]: M_Zombie_Infected (Shader: Universal Render Pipeline/Lit)
+      _BaseMap: T_Zombie_Infected_Albedo
+   SMR: mesh=Beta_Surface, rootBone=mixamorig:Hips, bonesCount=65, bounds=Center: (-0.03, -0.13, 0.17), Extents: (0.42, 0.84, 0.33)
+
+--- ALL ZOMBIE MODELS IN ASSETS/MODELS/ZOMBIE ---
+FBX 'running crawl.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie attack.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie biting (2).fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie biting.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie crawl.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie death.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie dying.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie idle.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie neck bite.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie run.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie scream.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'zombie walk.fbx': Renderers=0, Animator=No, Avatar=null
+FBX 'Zombie_Character.fbx': Renderers=2, Animator=No, Avatar=null
+   Renderer 'Beta_Joints': Mesh 'Beta_Joints' (12473 verts, 1 submeshes)
+      Mat[0]: Beta_Joints_MAT1
+   Renderer 'Beta_Surface': Mesh 'Beta_Surface' (15901 verts, 1 submeshes)
+      Mat[0]: Beta_HighLimbsGeoSG3
+FBX 'Zombie_Crawl_Model.fbx': Renderers=2, Animator=No, Avatar=null
+   Renderer 'Beta_Joints': Mesh 'Beta_Joints' (12473 verts, 1 submeshes)
+      Mat[0]: Beta_Joints_MAT1
+   Renderer 'Beta_Surface': Mesh 'Beta_Surface' (15901 verts, 1 submeshes)
+      Mat[0]: Beta_HighLimbsGeoSG3
+
+--- SAFE MATERIAL CORRECTIONS ---
+Fixed Assets/Materials/M_ZombieClothes.mat: Assigned T_Zombie_Shirt.png to _BaseMap.
+Fixed Assets/Resources/Materials/M_ZombieClothes.mat: Assigned T_Zombie_Shirt.png to _BaseMap.
+Remapped ModelImporter materials on 'Assets/Models/Zombie/Zombie_Character.fbx': Beta_HighLimbsGeoSG3 -> M_Zombie_Infected, Beta_Joints_MAT1 -> M_Zombie_Joints.
+Remapped ModelImporter materials on 'Assets/Resources/Characters/Zombie/Zombie_Character.fbx': Beta_HighLimbsGeoSG3 -> M_Zombie_Infected, Beta_Joints_MAT1 -> M_Zombie_Joints.
